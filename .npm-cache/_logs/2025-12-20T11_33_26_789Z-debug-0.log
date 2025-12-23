@@ -1,0 +1,1496 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.9.2
+2 info using node@v22.17.0
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/hw24a094/Logos/.npmrc
+5 silly config load:file:/Users/hw24a094/.npmrc
+6 silly config load:file:/usr/local/etc/npmrc
+7 verbose title npm install
+8 verbose argv "install" "--cache" ".npm-cache"
+9 verbose logfile logs-max:10 dir:/Users/hw24a094/Logos/.npm-cache/_logs/2025-12-20T11_33_26_789Z-
+10 verbose logfile /Users/hw24a094/Logos/.npm-cache/_logs/2025-12-20T11_33_26_789Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+13 silly idealTree buildDeps
+14 silly reify moves {}
+15 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/@tailwindcss/oxide-wasm32-wasi
+16 silly reify mark deleted [ '/Users/hw24a094/Logos/node_modules/@tailwindcss/oxide-wasm32-wasi' ]
+17 silly audit bulk request {
+17 silly audit   '@ai-sdk/gateway': [ '2.0.23' ],
+17 silly audit   '@ai-sdk/google': [ '2.0.51' ],
+17 silly audit   '@ai-sdk/provider': [ '2.0.0' ],
+17 silly audit   '@ai-sdk/provider-utils': [ '3.0.19' ],
+17 silly audit   '@alloc/quick-lru': [ '5.2.0' ],
+17 silly audit   '@babel/code-frame': [ '7.27.1' ],
+17 silly audit   '@babel/compat-data': [ '7.28.5' ],
+17 silly audit   '@babel/core': [ '7.28.5' ],
+17 silly audit   '@babel/generator': [ '7.28.5' ],
+17 silly audit   '@babel/helper-compilation-targets': [ '7.27.2' ],
+17 silly audit   '@babel/helper-globals': [ '7.28.0' ],
+17 silly audit   '@babel/helper-module-imports': [ '7.27.1' ],
+17 silly audit   '@babel/helper-module-transforms': [ '7.28.3' ],
+17 silly audit   '@babel/helper-string-parser': [ '7.27.1' ],
+17 silly audit   '@babel/helper-validator-identifier': [ '7.28.5' ],
+17 silly audit   '@babel/helper-validator-option': [ '7.27.1' ],
+17 silly audit   '@babel/helpers': [ '7.28.4' ],
+17 silly audit   '@babel/parser': [ '7.28.5' ],
+17 silly audit   '@babel/template': [ '7.27.2' ],
+17 silly audit   '@babel/traverse': [ '7.28.5' ],
+17 silly audit   '@babel/types': [ '7.28.5' ],
+17 silly audit   '@emnapi/core': [ '1.7.1' ],
+17 silly audit   '@emnapi/runtime': [ '1.7.1' ],
+17 silly audit   '@emnapi/wasi-threads': [ '1.1.0' ],
+17 silly audit   '@eslint-community/eslint-utils': [ '4.9.0' ],
+17 silly audit   'eslint-visitor-keys': [ '3.4.3', '4.2.1' ],
+17 silly audit   '@eslint-community/regexpp': [ '4.12.2' ],
+17 silly audit   '@eslint/config-array': [ '0.21.1' ],
+17 silly audit   '@eslint/config-helpers': [ '0.4.2' ],
+17 silly audit   '@eslint/core': [ '0.17.0' ],
+17 silly audit   '@eslint/eslintrc': [ '3.3.3' ],
+17 silly audit   '@eslint/js': [ '9.39.2' ],
+17 silly audit   '@eslint/object-schema': [ '2.1.7' ],
+17 silly audit   '@eslint/plugin-kit': [ '0.4.1' ],
+17 silly audit   '@humanfs/core': [ '0.19.1' ],
+17 silly audit   '@humanfs/node': [ '0.16.7' ],
+17 silly audit   '@humanwhocodes/module-importer': [ '1.0.1' ],
+17 silly audit   '@humanwhocodes/retry': [ '0.4.3' ],
+17 silly audit   '@img/colour': [ '1.0.0' ],
+17 silly audit   '@img/sharp-darwin-arm64': [ '0.34.5' ],
+17 silly audit   '@img/sharp-darwin-x64': [ '0.34.5' ],
+17 silly audit   '@img/sharp-libvips-darwin-arm64': [ '1.2.4' ],
+17 silly audit   '@img/sharp-libvips-darwin-x64': [ '1.2.4' ],
+17 silly audit   '@img/sharp-libvips-linux-arm': [ '1.2.4' ],
+17 silly audit   '@img/sharp-libvips-linux-arm64': [ '1.2.4' ],
+17 silly audit   '@img/sharp-libvips-linux-ppc64': [ '1.2.4' ],
+17 silly audit   '@img/sharp-libvips-linux-riscv64': [ '1.2.4' ],
+17 silly audit   '@img/sharp-libvips-linux-s390x': [ '1.2.4' ],
+17 silly audit   '@img/sharp-libvips-linux-x64': [ '1.2.4' ],
+17 silly audit   '@img/sharp-libvips-linuxmusl-arm64': [ '1.2.4' ],
+17 silly audit   '@img/sharp-libvips-linuxmusl-x64': [ '1.2.4' ],
+17 silly audit   '@img/sharp-linux-arm': [ '0.34.5' ],
+17 silly audit   '@img/sharp-linux-arm64': [ '0.34.5' ],
+17 silly audit   '@img/sharp-linux-ppc64': [ '0.34.5' ],
+17 silly audit   '@img/sharp-linux-riscv64': [ '0.34.5' ],
+17 silly audit   '@img/sharp-linux-s390x': [ '0.34.5' ],
+17 silly audit   '@img/sharp-linux-x64': [ '0.34.5' ],
+17 silly audit   '@img/sharp-linuxmusl-arm64': [ '0.34.5' ],
+17 silly audit   '@img/sharp-linuxmusl-x64': [ '0.34.5' ],
+17 silly audit   '@img/sharp-wasm32': [ '0.34.5' ],
+17 silly audit   '@img/sharp-win32-arm64': [ '0.34.5' ],
+17 silly audit   '@img/sharp-win32-ia32': [ '0.34.5' ],
+17 silly audit   '@img/sharp-win32-x64': [ '0.34.5' ],
+17 silly audit   '@jridgewell/gen-mapping': [ '0.3.13' ],
+17 silly audit   '@jridgewell/remapping': [ '2.3.5' ],
+17 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+17 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.5' ],
+17 silly audit   '@jridgewell/trace-mapping': [ '0.3.31' ],
+17 silly audit   '@napi-rs/wasm-runtime': [ '0.2.12' ],
+17 silly audit   '@next/env': [ '16.1.0' ],
+17 silly audit   '@next/eslint-plugin-next': [ '16.1.0' ],
+17 silly audit   '@next/swc-darwin-arm64': [ '16.1.0' ],
+17 silly audit   '@next/swc-darwin-x64': [ '16.1.0' ],
+17 silly audit   '@next/swc-linux-arm64-gnu': [ '16.1.0' ],
+17 silly audit   '@next/swc-linux-arm64-musl': [ '16.1.0' ],
+17 silly audit   '@next/swc-linux-x64-gnu': [ '16.1.0' ],
+17 silly audit   '@next/swc-linux-x64-musl': [ '16.1.0' ],
+17 silly audit   '@next/swc-win32-arm64-msvc': [ '16.1.0' ],
+17 silly audit   '@next/swc-win32-x64-msvc': [ '16.1.0' ],
+17 silly audit   '@nodelib/fs.scandir': [ '2.1.5' ],
+17 silly audit   '@nodelib/fs.stat': [ '2.0.5' ],
+17 silly audit   '@nodelib/fs.walk': [ '1.2.8' ],
+17 silly audit   '@nolyfill/is-core-module': [ '1.0.39' ],
+17 silly audit   '@opentelemetry/api': [ '1.9.0' ],
+17 silly audit   '@rtsao/scc': [ '1.1.0' ],
+17 silly audit   '@standard-schema/spec': [ '1.1.0' ],
+17 silly audit   '@swc/helpers': [ '0.5.15' ],
+17 silly audit   '@tailwindcss/node': [ '4.1.18' ],
+17 silly audit   '@tailwindcss/oxide': [ '4.1.18' ],
+17 silly audit   '@tailwindcss/oxide-android-arm64': [ '4.1.18' ],
+17 silly audit   '@tailwindcss/oxide-darwin-arm64': [ '4.1.18' ],
+17 silly audit   '@tailwindcss/oxide-darwin-x64': [ '4.1.18' ],
+17 silly audit   '@tailwindcss/oxide-freebsd-x64': [ '4.1.18' ],
+17 silly audit   '@tailwindcss/oxide-linux-arm-gnueabihf': [ '4.1.18' ],
+17 silly audit   '@tailwindcss/oxide-linux-arm64-gnu': [ '4.1.18' ],
+17 silly audit   '@tailwindcss/oxide-linux-arm64-musl': [ '4.1.18' ],
+17 silly audit   '@tailwindcss/oxide-linux-x64-gnu': [ '4.1.18' ],
+17 silly audit   '@tailwindcss/oxide-linux-x64-musl': [ '4.1.18' ],
+17 silly audit   '@tailwindcss/oxide-win32-arm64-msvc': [ '4.1.18' ],
+17 silly audit   '@tailwindcss/oxide-win32-x64-msvc': [ '4.1.18' ],
+17 silly audit   '@tailwindcss/postcss': [ '4.1.18' ],
+17 silly audit   '@tybys/wasm-util': [ '0.10.1' ],
+17 silly audit   '@types/estree': [ '1.0.8' ],
+17 silly audit   '@types/json-schema': [ '7.0.15' ],
+17 silly audit   '@types/json5': [ '0.0.29' ],
+17 silly audit   '@types/node': [ '20.19.27' ],
+17 silly audit   '@types/react': [ '19.2.7' ],
+17 silly audit   '@types/react-dom': [ '19.2.3' ],
+17 silly audit   '@typescript-eslint/eslint-plugin': [ '8.50.0' ],
+17 silly audit   ignore: [ '7.0.5', '5.3.2' ],
+17 silly audit   '@typescript-eslint/parser': [ '8.50.0' ],
+17 silly audit   '@typescript-eslint/project-service': [ '8.50.0' ],
+17 silly audit   '@typescript-eslint/scope-manager': [ '8.50.0' ],
+17 silly audit   '@typescript-eslint/tsconfig-utils': [ '8.50.0' ],
+17 silly audit   '@typescript-eslint/type-utils': [ '8.50.0' ],
+17 silly audit   '@typescript-eslint/types': [ '8.50.0' ],
+17 silly audit   '@typescript-eslint/typescript-estree': [ '8.50.0' ],
+17 silly audit   'brace-expansion': [ '2.0.2', '1.1.12' ],
+17 silly audit   minimatch: [ '9.0.5', '3.1.2' ],
+17 silly audit   semver: [ '7.7.3', '6.3.1' ],
+17 silly audit   '@typescript-eslint/utils': [ '8.50.0' ],
+17 silly audit   '@typescript-eslint/visitor-keys': [ '8.50.0' ],
+17 silly audit   '@unrs/resolver-binding-android-arm-eabi': [ '1.11.1' ],
+17 silly audit   '@unrs/resolver-binding-android-arm64': [ '1.11.1' ],
+17 silly audit   '@unrs/resolver-binding-darwin-arm64': [ '1.11.1' ],
+17 silly audit   '@unrs/resolver-binding-darwin-x64': [ '1.11.1' ],
+17 silly audit   '@unrs/resolver-binding-freebsd-x64': [ '1.11.1' ],
+17 silly audit   '@unrs/resolver-binding-linux-arm-gnueabihf': [ '1.11.1' ],
+17 silly audit   '@unrs/resolver-binding-linux-arm-musleabihf': [ '1.11.1' ],
+17 silly audit   '@unrs/resolver-binding-linux-arm64-gnu': [ '1.11.1' ],
+17 silly audit   '@unrs/resolver-binding-linux-arm64-musl': [ '1.11.1' ],
+17 silly audit   '@unrs/resolver-binding-linux-ppc64-gnu': [ '1.11.1' ],
+17 silly audit   '@unrs/resolver-binding-linux-riscv64-gnu': [ '1.11.1' ],
+17 silly audit   '@unrs/resolver-binding-linux-riscv64-musl': [ '1.11.1' ],
+17 silly audit   '@unrs/resolver-binding-linux-s390x-gnu': [ '1.11.1' ],
+17 silly audit   '@unrs/resolver-binding-linux-x64-gnu': [ '1.11.1' ],
+17 silly audit   '@unrs/resolver-binding-linux-x64-musl': [ '1.11.1' ],
+17 silly audit   '@unrs/resolver-binding-wasm32-wasi': [ '1.11.1' ],
+17 silly audit   '@unrs/resolver-binding-win32-arm64-msvc': [ '1.11.1' ],
+17 silly audit   '@unrs/resolver-binding-win32-ia32-msvc': [ '1.11.1' ],
+17 silly audit   '@unrs/resolver-binding-win32-x64-msvc': [ '1.11.1' ],
+17 silly audit   '@vercel/oidc': [ '3.0.5' ],
+17 silly audit   acorn: [ '8.15.0' ],
+17 silly audit   'acorn-jsx': [ '5.3.2' ],
+17 silly audit   ai: [ '5.0.116' ],
+17 silly audit   ajv: [ '6.12.6' ],
+17 silly audit   'ansi-styles': [ '4.3.0' ],
+17 silly audit   argparse: [ '2.0.1' ],
+17 silly audit   'aria-query': [ '5.3.2' ],
+17 silly audit   'array-buffer-byte-length': [ '1.0.2' ],
+17 silly audit   'array-includes': [ '3.1.9' ],
+17 silly audit   'array.prototype.findlast': [ '1.2.5' ],
+17 silly audit   'array.prototype.findlastindex': [ '1.2.6' ],
+17 silly audit   'array.prototype.flat': [ '1.3.3' ],
+17 silly audit   'array.prototype.flatmap': [ '1.3.3' ],
+17 silly audit   'array.prototype.tosorted': [ '1.1.4' ],
+17 silly audit   'arraybuffer.prototype.slice': [ '1.0.4' ],
+17 silly audit   'ast-types-flow': [ '0.0.8' ],
+17 silly audit   'async-function': [ '1.0.0' ],
+17 silly audit   'available-typed-arrays': [ '1.0.7' ],
+17 silly audit   'axe-core': [ '4.11.0' ],
+17 silly audit   'axobject-query': [ '4.1.0' ],
+17 silly audit   'balanced-match': [ '1.0.2' ],
+17 silly audit   'baseline-browser-mapping': [ '2.9.11' ],
+17 silly audit   braces: [ '3.0.3' ],
+17 silly audit   browserslist: [ '4.28.1' ],
+17 silly audit   'call-bind': [ '1.0.8' ],
+17 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+17 silly audit   'call-bound': [ '1.0.4' ],
+17 silly audit   callsites: [ '3.1.0' ],
+17 silly audit   'caniuse-lite': [ '1.0.30001761' ],
+17 silly audit   chalk: [ '4.1.2' ],
+17 silly audit   'client-only': [ '0.0.1' ],
+17 silly audit   clsx: [ '2.1.1' ],
+17 silly audit   'color-convert': [ '2.0.1' ],
+17 silly audit   'color-name': [ '1.1.4' ],
+17 silly audit   'concat-map': [ '0.0.1' ],
+17 silly audit   'convert-source-map': [ '2.0.0' ],
+17 silly audit   'cross-spawn': [ '7.0.6' ],
+17 silly audit   csstype: [ '3.2.3' ],
+17 silly audit   'damerau-levenshtein': [ '1.0.8' ],
+17 silly audit   'data-view-buffer': [ '1.0.2' ],
+17 silly audit   'data-view-byte-length': [ '1.0.2' ],
+17 silly audit   'data-view-byte-offset': [ '1.0.1' ],
+17 silly audit   debug: [ '4.4.3', '3.2.7' ],
+17 silly audit   'deep-is': [ '0.1.4' ],
+17 silly audit   'define-data-property': [ '1.1.4' ],
+17 silly audit   'define-properties': [ '1.2.1' ],
+17 silly audit   'detect-libc': [ '2.1.2' ],
+17 silly audit   doctrine: [ '2.1.0' ],
+17 silly audit   'dunder-proto': [ '1.0.1' ],
+17 silly audit   'electron-to-chromium': [ '1.5.267' ],
+17 silly audit   'emoji-regex': [ '9.2.2' ],
+17 silly audit   'enhanced-resolve': [ '5.18.4' ],
+17 silly audit   'es-abstract': [ '1.24.1' ],
+17 silly audit   'es-define-property': [ '1.0.1' ],
+17 silly audit   'es-errors': [ '1.3.0' ],
+17 silly audit   'es-iterator-helpers': [ '1.2.2' ],
+17 silly audit   'es-object-atoms': [ '1.1.1' ],
+17 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+17 silly audit   'es-shim-unscopables': [ '1.1.0' ],
+17 silly audit   'es-to-primitive': [ '1.3.0' ],
+17 silly audit   escalade: [ '3.2.0' ],
+17 silly audit   'escape-string-regexp': [ '4.0.0' ],
+17 silly audit   eslint: [ '9.39.2' ],
+17 silly audit   'eslint-config-next': [ '16.1.0' ],
+17 silly audit   globals: [ '16.4.0', '14.0.0' ],
+17 silly audit   'eslint-import-resolver-node': [ '0.3.9' ],
+17 silly audit   'eslint-import-resolver-typescript': [ '3.10.1' ],
+17 silly audit   'eslint-module-utils': [ '2.12.1' ],
+17 silly audit   'eslint-plugin-import': [ '2.32.0' ],
+17 silly audit   'eslint-plugin-jsx-a11y': [ '6.10.2' ],
+17 silly audit   'eslint-plugin-react': [ '7.37.5' ],
+17 silly audit   'eslint-plugin-react-hooks': [ '7.0.1' ],
+17 silly audit   resolve: [ '2.0.0-next.5', '1.22.11' ],
+17 silly audit   'eslint-scope': [ '8.4.0' ],
+17 silly audit   espree: [ '10.4.0' ],
+17 silly audit   esquery: [ '1.6.0' ],
+17 silly audit   esrecurse: [ '4.3.0' ],
+17 silly audit   estraverse: [ '5.3.0' ],
+17 silly audit   esutils: [ '2.0.3' ],
+17 silly audit   'eventsource-parser': [ '3.0.6' ],
+17 silly audit   'fast-deep-equal': [ '3.1.3' ],
+17 silly audit   'fast-glob': [ '3.3.1' ],
+17 silly audit   'glob-parent': [ '5.1.2', '6.0.2' ],
+17 silly audit   'fast-json-stable-stringify': [ '2.1.0' ],
+17 silly audit   'fast-levenshtein': [ '2.0.6' ],
+17 silly audit   fastq: [ '1.19.1' ],
+17 silly audit   'file-entry-cache': [ '8.0.0' ],
+17 silly audit   'fill-range': [ '7.1.1' ],
+17 silly audit   'find-up': [ '5.0.0' ],
+17 silly audit   'flat-cache': [ '4.0.1' ],
+17 silly audit   flatted: [ '3.3.3' ],
+17 silly audit   'for-each': [ '0.3.5' ],
+17 silly audit   'framer-motion': [ '12.23.26' ],
+17 silly audit   'function-bind': [ '1.1.2' ],
+17 silly audit   'function.prototype.name': [ '1.1.8' ],
+17 silly audit   'functions-have-names': [ '1.2.3' ],
+17 silly audit   'generator-function': [ '2.0.1' ],
+17 silly audit   gensync: [ '1.0.0-beta.2' ],
+17 silly audit   'get-intrinsic': [ '1.3.0' ],
+17 silly audit   'get-proto': [ '1.0.1' ],
+17 silly audit   'get-symbol-description': [ '1.1.0' ],
+17 silly audit   'get-tsconfig': [ '4.13.0' ],
+17 silly audit   globalthis: [ '1.0.4' ],
+17 silly audit   gopd: [ '1.2.0' ],
+17 silly audit   'graceful-fs': [ '4.2.11' ],
+17 silly audit   'has-bigints': [ '1.1.0' ],
+17 silly audit   'has-flag': [ '4.0.0' ],
+17 silly audit   'has-property-descriptors': [ '1.0.2' ],
+17 silly audit   'has-proto': [ '1.2.0' ],
+17 silly audit   'has-symbols': [ '1.1.0' ],
+17 silly audit   'has-tostringtag': [ '1.0.2' ],
+17 silly audit   hasown: [ '2.0.2' ],
+17 silly audit   'hermes-estree': [ '0.25.1' ],
+17 silly audit   'hermes-parser': [ '0.25.1' ],
+17 silly audit   'import-fresh': [ '3.3.1' ],
+17 silly audit   imurmurhash: [ '0.1.4' ],
+17 silly audit   'internal-slot': [ '1.1.0' ],
+17 silly audit   'is-array-buffer': [ '3.0.5' ],
+17 silly audit   'is-async-function': [ '2.1.1' ],
+17 silly audit   'is-bigint': [ '1.1.0' ],
+17 silly audit   'is-boolean-object': [ '1.2.2' ],
+17 silly audit   'is-bun-module': [ '2.0.0' ],
+17 silly audit   'is-callable': [ '1.2.7' ],
+17 silly audit   'is-core-module': [ '2.16.1' ],
+17 silly audit   'is-data-view': [ '1.0.2' ],
+17 silly audit   'is-date-object': [ '1.1.0' ],
+17 silly audit   'is-extglob': [ '2.1.1' ],
+17 silly audit   'is-finalizationregistry': [ '1.1.1' ],
+17 silly audit   'is-generator-function': [ '1.1.2' ],
+17 silly audit   'is-glob': [ '4.0.3' ],
+17 silly audit   'is-map': [ '2.0.3' ],
+17 silly audit   'is-negative-zero': [ '2.0.3' ],
+17 silly audit   'is-number': [ '7.0.0' ],
+17 silly audit   'is-number-object': [ '1.1.1' ],
+17 silly audit   'is-regex': [ '1.2.1' ],
+17 silly audit   'is-set': [ '2.0.3' ],
+17 silly audit   'is-shared-array-buffer': [ '1.0.4' ],
+17 silly audit   'is-string': [ '1.1.1' ],
+17 silly audit   'is-symbol': [ '1.1.1' ],
+17 silly audit   'is-typed-array': [ '1.1.15' ],
+17 silly audit   'is-weakmap': [ '2.0.2' ],
+17 silly audit   'is-weakref': [ '1.1.1' ],
+17 silly audit   'is-weakset': [ '2.0.4' ],
+17 silly audit   isarray: [ '2.0.5' ],
+17 silly audit   isexe: [ '2.0.0' ],
+17 silly audit   'iterator.prototype': [ '1.1.5' ],
+17 silly audit   jiti: [ '2.6.1' ],
+17 silly audit   'js-tokens': [ '4.0.0' ],
+17 silly audit   'js-yaml': [ '4.1.1' ],
+17 silly audit   jsesc: [ '3.1.0' ],
+17 silly audit   'json-buffer': [ '3.0.1' ],
+17 silly audit   'json-schema': [ '0.4.0' ],
+17 silly audit   'json-schema-traverse': [ '0.4.1' ],
+17 silly audit   'json-stable-stringify-without-jsonify': [ '1.0.1' ],
+17 silly audit   json5: [ '2.2.3', '1.0.2' ],
+17 silly audit   'jsx-ast-utils': [ '3.3.5' ],
+17 silly audit   keyv: [ '4.5.4' ],
+17 silly audit   'language-subtag-registry': [ '0.3.23' ],
+17 silly audit   'language-tags': [ '1.0.9' ],
+17 silly audit   levn: [ '0.4.1' ],
+17 silly audit   lightningcss: [ '1.30.2' ],
+17 silly audit   'lightningcss-android-arm64': [ '1.30.2' ],
+17 silly audit   'lightningcss-darwin-arm64': [ '1.30.2' ],
+17 silly audit   'lightningcss-darwin-x64': [ '1.30.2' ],
+17 silly audit   'lightningcss-freebsd-x64': [ '1.30.2' ],
+17 silly audit   'lightningcss-linux-arm-gnueabihf': [ '1.30.2' ],
+17 silly audit   'lightningcss-linux-arm64-gnu': [ '1.30.2' ],
+17 silly audit   'lightningcss-linux-arm64-musl': [ '1.30.2' ],
+17 silly audit   'lightningcss-linux-x64-gnu': [ '1.30.2' ],
+17 silly audit   'lightningcss-linux-x64-musl': [ '1.30.2' ],
+17 silly audit   'lightningcss-win32-arm64-msvc': [ '1.30.2' ],
+17 silly audit   'lightningcss-win32-x64-msvc': [ '1.30.2' ],
+17 silly audit   'locate-path': [ '6.0.0' ],
+17 silly audit   'lodash.merge': [ '4.6.2' ],
+17 silly audit   'loose-envify': [ '1.4.0' ],
+17 silly audit   'lru-cache': [ '5.1.1' ],
+17 silly audit   'lucide-react': [ '0.562.0' ],
+17 silly audit   'magic-string': [ '0.30.21' ],
+17 silly audit   'math-intrinsics': [ '1.1.0' ],
+17 silly audit   merge2: [ '1.4.1' ],
+17 silly audit   micromatch: [ '4.0.8' ],
+17 silly audit   minimist: [ '1.2.8' ],
+17 silly audit   'motion-dom': [ '12.23.23' ],
+17 silly audit   'motion-utils': [ '12.23.6' ],
+17 silly audit   ms: [ '2.1.3' ],
+17 silly audit   nanoid: [ '3.3.11' ],
+17 silly audit   'napi-postinstall': [ '0.3.4' ],
+17 silly audit   'natural-compare': [ '1.4.0' ],
+17 silly audit   next: [ '16.1.0' ],
+17 silly audit   postcss: [ '8.4.31', '8.5.6' ],
+17 silly audit   'node-releases': [ '2.0.27' ],
+17 silly audit   'object-assign': [ '4.1.1' ],
+17 silly audit   'object-inspect': [ '1.13.4' ],
+17 silly audit   'object-keys': [ '1.1.1' ],
+17 silly audit   'object.assign': [ '4.1.7' ],
+17 silly audit   'object.entries': [ '1.1.9' ],
+17 silly audit   'object.fromentries': [ '2.0.8' ],
+17 silly audit   'object.groupby': [ '1.0.3' ],
+17 silly audit   'object.values': [ '1.2.1' ],
+17 silly audit   optionator: [ '0.9.4' ],
+17 silly audit   'own-keys': [ '1.0.1' ],
+17 silly audit   'p-limit': [ '3.1.0' ],
+17 silly audit   'p-locate': [ '5.0.0' ],
+17 silly audit   'parent-module': [ '1.0.1' ],
+17 silly audit   'path-exists': [ '4.0.0' ],
+17 silly audit   'path-key': [ '3.1.1' ],
+17 silly audit   'path-parse': [ '1.0.7' ],
+17 silly audit   picocolors: [ '1.1.1' ],
+17 silly audit   picomatch: [ '2.3.1', '4.0.3' ],
+17 silly audit   'possible-typed-array-names': [ '1.1.0' ],
+17 silly audit   'prelude-ls': [ '1.2.1' ],
+17 silly audit   'prop-types': [ '15.8.1' ],
+17 silly audit   punycode: [ '2.3.1' ],
+17 silly audit   'queue-microtask': [ '1.2.3' ],
+17 silly audit   react: [ '19.2.3' ],
+17 silly audit   'react-dom': [ '19.2.3' ],
+17 silly audit   'react-is': [ '16.13.1' ],
+17 silly audit   'reflect.getprototypeof': [ '1.0.10' ],
+17 silly audit   'regexp.prototype.flags': [ '1.5.4' ],
+17 silly audit   'resolve-from': [ '4.0.0' ],
+17 silly audit   'resolve-pkg-maps': [ '1.0.0' ],
+17 silly audit   reusify: [ '1.1.0' ],
+17 silly audit   'run-parallel': [ '1.2.0' ],
+17 silly audit   'safe-array-concat': [ '1.1.3' ],
+17 silly audit   'safe-push-apply': [ '1.0.0' ],
+17 silly audit   'safe-regex-test': [ '1.1.0' ],
+17 silly audit   scheduler: [ '0.27.0' ],
+17 silly audit   'set-function-length': [ '1.2.2' ],
+17 silly audit   'set-function-name': [ '2.0.2' ],
+17 silly audit   'set-proto': [ '1.0.0' ],
+17 silly audit   sharp: [ '0.34.5' ],
+17 silly audit   'shebang-command': [ '2.0.0' ],
+17 silly audit   'shebang-regex': [ '3.0.0' ],
+17 silly audit   'side-channel': [ '1.1.0' ],
+17 silly audit   'side-channel-list': [ '1.0.0' ],
+17 silly audit   'side-channel-map': [ '1.0.1' ],
+17 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+17 silly audit   'source-map-js': [ '1.2.1' ],
+17 silly audit   'stable-hash': [ '0.0.5' ],
+17 silly audit   'stop-iteration-iterator': [ '1.1.0' ],
+17 silly audit   'string.prototype.includes': [ '2.0.1' ],
+17 silly audit   'string.prototype.matchall': [ '4.0.12' ],
+17 silly audit   'string.prototype.repeat': [ '1.0.0' ],
+17 silly audit   'string.prototype.trim': [ '1.2.10' ],
+17 silly audit   'string.prototype.trimend': [ '1.0.9' ],
+17 silly audit   'string.prototype.trimstart': [ '1.0.8' ],
+17 silly audit   'strip-bom': [ '3.0.0' ],
+17 silly audit   'strip-json-comments': [ '3.1.1' ],
+17 silly audit   'styled-jsx': [ '5.1.6' ],
+17 silly audit   'supports-color': [ '7.2.0' ],
+17 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+17 silly audit   'tailwind-merge': [ '3.4.0' ],
+17 silly audit   tailwindcss: [ '4.1.18' ],
+17 silly audit   tapable: [ '2.3.0' ],
+17 silly audit   tinyglobby: [ '0.2.15' ],
+17 silly audit   fdir: [ '6.5.0' ],
+17 silly audit   'to-regex-range': [ '5.0.1' ],
+17 silly audit   'ts-api-utils': [ '2.1.0' ],
+17 silly audit   'tsconfig-paths': [ '3.15.0' ],
+17 silly audit   tslib: [ '2.8.1' ],
+17 silly audit   'type-check': [ '0.4.0' ],
+17 silly audit   'typed-array-buffer': [ '1.0.3' ],
+17 silly audit   'typed-array-byte-length': [ '1.0.3' ],
+17 silly audit   'typed-array-byte-offset': [ '1.0.4' ],
+17 silly audit   'typed-array-length': [ '1.0.7' ],
+17 silly audit   typescript: [ '5.9.3' ],
+17 silly audit   'typescript-eslint': [ '8.50.0' ],
+17 silly audit   'unbox-primitive': [ '1.1.0' ],
+17 silly audit   'undici-types': [ '6.21.0' ],
+17 silly audit   'unrs-resolver': [ '1.11.1' ],
+17 silly audit   'update-browserslist-db': [ '1.2.3' ],
+17 silly audit   'uri-js': [ '4.4.1' ],
+17 silly audit   which: [ '2.0.2' ],
+17 silly audit   'which-boxed-primitive': [ '1.1.1' ],
+17 silly audit   'which-builtin-type': [ '1.2.1' ],
+17 silly audit   'which-collection': [ '1.0.2' ],
+17 silly audit   'which-typed-array': [ '1.1.19' ],
+17 silly audit   'word-wrap': [ '1.2.5' ],
+17 silly audit   yallist: [ '3.1.1' ],
+17 silly audit   'yocto-queue': [ '0.1.0' ],
+17 silly audit   zod: [ '4.2.1' ],
+17 silly audit   'zod-validation-error': [ '4.0.2' ],
+17 silly audit   '@tailwindcss/oxide-wasm32-wasi': [ '4.1.18' ]
+17 silly audit }
+18 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/lightningcss-win32-x64-msvc
+19 silly reify mark deleted [ '/Users/hw24a094/Logos/node_modules/lightningcss-win32-x64-msvc' ]
+20 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/lightningcss-win32-arm64-msvc
+21 silly reify mark deleted [ '/Users/hw24a094/Logos/node_modules/lightningcss-win32-arm64-msvc' ]
+22 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/lightningcss-linux-x64-musl
+23 silly reify mark deleted [ '/Users/hw24a094/Logos/node_modules/lightningcss-linux-x64-musl' ]
+24 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/lightningcss-linux-x64-gnu
+25 silly reify mark deleted [ '/Users/hw24a094/Logos/node_modules/lightningcss-linux-x64-gnu' ]
+26 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/lightningcss-linux-arm64-musl
+27 silly reify mark deleted [ '/Users/hw24a094/Logos/node_modules/lightningcss-linux-arm64-musl' ]
+28 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/lightningcss-linux-arm64-gnu
+29 silly reify mark deleted [ '/Users/hw24a094/Logos/node_modules/lightningcss-linux-arm64-gnu' ]
+30 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/lightningcss-linux-arm-gnueabihf
+31 silly reify mark deleted [
+31 silly reify   '/Users/hw24a094/Logos/node_modules/lightningcss-linux-arm-gnueabihf'
+31 silly reify ]
+32 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/lightningcss-freebsd-x64
+33 silly reify mark deleted [ '/Users/hw24a094/Logos/node_modules/lightningcss-freebsd-x64' ]
+34 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/lightningcss-darwin-x64
+35 silly reify mark deleted [ '/Users/hw24a094/Logos/node_modules/lightningcss-darwin-x64' ]
+36 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/lightningcss-android-arm64
+37 silly reify mark deleted [ '/Users/hw24a094/Logos/node_modules/lightningcss-android-arm64' ]
+38 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/@unrs/resolver-binding-win32-x64-msvc
+39 silly reify mark deleted [
+39 silly reify   '/Users/hw24a094/Logos/node_modules/@unrs/resolver-binding-win32-x64-msvc'
+39 silly reify ]
+40 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/@unrs/resolver-binding-win32-ia32-msvc
+41 silly reify mark deleted [
+41 silly reify   '/Users/hw24a094/Logos/node_modules/@unrs/resolver-binding-win32-ia32-msvc'
+41 silly reify ]
+42 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/@unrs/resolver-binding-win32-arm64-msvc
+43 silly reify mark deleted [
+43 silly reify   '/Users/hw24a094/Logos/node_modules/@unrs/resolver-binding-win32-arm64-msvc'
+43 silly reify ]
+44 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/@unrs/resolver-binding-wasm32-wasi
+45 silly reify mark deleted [
+45 silly reify   '/Users/hw24a094/Logos/node_modules/@unrs/resolver-binding-wasm32-wasi'
+45 silly reify ]
+46 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/@unrs/resolver-binding-linux-x64-musl
+47 silly reify mark deleted [
+47 silly reify   '/Users/hw24a094/Logos/node_modules/@unrs/resolver-binding-linux-x64-musl'
+47 silly reify ]
+48 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/@unrs/resolver-binding-linux-x64-gnu
+49 silly reify mark deleted [
+49 silly reify   '/Users/hw24a094/Logos/node_modules/@unrs/resolver-binding-linux-x64-gnu'
+49 silly reify ]
+50 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/@unrs/resolver-binding-linux-s390x-gnu
+51 silly reify mark deleted [
+51 silly reify   '/Users/hw24a094/Logos/node_modules/@unrs/resolver-binding-linux-s390x-gnu'
+51 silly reify ]
+52 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/@unrs/resolver-binding-linux-riscv64-musl
+53 silly reify mark deleted [
+53 silly reify   '/Users/hw24a094/Logos/node_modules/@unrs/resolver-binding-linux-riscv64-musl'
+53 silly reify ]
+54 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/@unrs/resolver-binding-linux-riscv64-gnu
+55 silly reify mark deleted [
+55 silly reify   '/Users/hw24a094/Logos/node_modules/@unrs/resolver-binding-linux-riscv64-gnu'
+55 silly reify ]
+56 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/@unrs/resolver-binding-linux-ppc64-gnu
+57 silly reify mark deleted [
+57 silly reify   '/Users/hw24a094/Logos/node_modules/@unrs/resolver-binding-linux-ppc64-gnu'
+57 silly reify ]
+58 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/@unrs/resolver-binding-linux-arm64-musl
+59 silly reify mark deleted [
+59 silly reify   '/Users/hw24a094/Logos/node_modules/@unrs/resolver-binding-linux-arm64-musl'
+59 silly reify ]
+60 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/@unrs/resolver-binding-linux-arm64-gnu
+61 silly reify mark deleted [
+61 silly reify   '/Users/hw24a094/Logos/node_modules/@unrs/resolver-binding-linux-arm64-gnu'
+61 silly reify ]
+62 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/@unrs/resolver-binding-linux-arm-musleabihf
+63 silly reify mark deleted [
+63 silly reify   '/Users/hw24a094/Logos/node_modules/@unrs/resolver-binding-linux-arm-musleabihf'
+63 silly reify ]
+64 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/@unrs/resolver-binding-linux-arm-gnueabihf
+65 silly reify mark deleted [
+65 silly reify   '/Users/hw24a094/Logos/node_modules/@unrs/resolver-binding-linux-arm-gnueabihf'
+65 silly reify ]
+66 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/@unrs/resolver-binding-freebsd-x64
+67 silly reify mark deleted [
+67 silly reify   '/Users/hw24a094/Logos/node_modules/@unrs/resolver-binding-freebsd-x64'
+67 silly reify ]
+68 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/@unrs/resolver-binding-darwin-x64
+69 silly reify mark deleted [
+69 silly reify   '/Users/hw24a094/Logos/node_modules/@unrs/resolver-binding-darwin-x64'
+69 silly reify ]
+70 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/@unrs/resolver-binding-android-arm64
+71 silly reify mark deleted [
+71 silly reify   '/Users/hw24a094/Logos/node_modules/@unrs/resolver-binding-android-arm64'
+71 silly reify ]
+72 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/@unrs/resolver-binding-android-arm-eabi
+73 silly reify mark deleted [
+73 silly reify   '/Users/hw24a094/Logos/node_modules/@unrs/resolver-binding-android-arm-eabi'
+73 silly reify ]
+74 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/@tailwindcss/oxide-win32-x64-msvc
+75 silly reify mark deleted [
+75 silly reify   '/Users/hw24a094/Logos/node_modules/@tailwindcss/oxide-win32-x64-msvc'
+75 silly reify ]
+76 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/@tailwindcss/oxide-win32-arm64-msvc
+77 silly reify mark deleted [
+77 silly reify   '/Users/hw24a094/Logos/node_modules/@tailwindcss/oxide-win32-arm64-msvc'
+77 silly reify ]
+78 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/@tailwindcss/oxide-linux-x64-musl
+79 silly reify mark deleted [
+79 silly reify   '/Users/hw24a094/Logos/node_modules/@tailwindcss/oxide-linux-x64-musl'
+79 silly reify ]
+80 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/@tailwindcss/oxide-linux-x64-gnu
+81 silly reify mark deleted [
+81 silly reify   '/Users/hw24a094/Logos/node_modules/@tailwindcss/oxide-linux-x64-gnu'
+81 silly reify ]
+82 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/@tailwindcss/oxide-linux-arm64-musl
+83 silly reify mark deleted [
+83 silly reify   '/Users/hw24a094/Logos/node_modules/@tailwindcss/oxide-linux-arm64-musl'
+83 silly reify ]
+84 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/@tailwindcss/oxide-linux-arm64-gnu
+85 silly reify mark deleted [
+85 silly reify   '/Users/hw24a094/Logos/node_modules/@tailwindcss/oxide-linux-arm64-gnu'
+85 silly reify ]
+86 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/@tailwindcss/oxide-linux-arm-gnueabihf
+87 silly reify mark deleted [
+87 silly reify   '/Users/hw24a094/Logos/node_modules/@tailwindcss/oxide-linux-arm-gnueabihf'
+87 silly reify ]
+88 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/@tailwindcss/oxide-freebsd-x64
+89 silly reify mark deleted [ '/Users/hw24a094/Logos/node_modules/@tailwindcss/oxide-freebsd-x64' ]
+90 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/@tailwindcss/oxide-darwin-x64
+91 silly reify mark deleted [ '/Users/hw24a094/Logos/node_modules/@tailwindcss/oxide-darwin-x64' ]
+92 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/@tailwindcss/oxide-android-arm64
+93 silly reify mark deleted [
+93 silly reify   '/Users/hw24a094/Logos/node_modules/@tailwindcss/oxide-android-arm64'
+93 silly reify ]
+94 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/@next/swc-win32-x64-msvc
+95 silly reify mark deleted [ '/Users/hw24a094/Logos/node_modules/@next/swc-win32-x64-msvc' ]
+96 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/@next/swc-win32-arm64-msvc
+97 silly reify mark deleted [ '/Users/hw24a094/Logos/node_modules/@next/swc-win32-arm64-msvc' ]
+98 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/@next/swc-linux-x64-musl
+99 silly reify mark deleted [ '/Users/hw24a094/Logos/node_modules/@next/swc-linux-x64-musl' ]
+100 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/@next/swc-linux-x64-gnu
+101 silly reify mark deleted [ '/Users/hw24a094/Logos/node_modules/@next/swc-linux-x64-gnu' ]
+102 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/@next/swc-linux-arm64-musl
+103 silly reify mark deleted [ '/Users/hw24a094/Logos/node_modules/@next/swc-linux-arm64-musl' ]
+104 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/@next/swc-linux-arm64-gnu
+105 silly reify mark deleted [ '/Users/hw24a094/Logos/node_modules/@next/swc-linux-arm64-gnu' ]
+106 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/@next/swc-darwin-x64
+107 silly reify mark deleted [ '/Users/hw24a094/Logos/node_modules/@next/swc-darwin-x64' ]
+108 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/@img/sharp-win32-x64
+109 silly reify mark deleted [ '/Users/hw24a094/Logos/node_modules/@img/sharp-win32-x64' ]
+110 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/@img/sharp-win32-ia32
+111 silly reify mark deleted [ '/Users/hw24a094/Logos/node_modules/@img/sharp-win32-ia32' ]
+112 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/@img/sharp-win32-arm64
+113 silly reify mark deleted [ '/Users/hw24a094/Logos/node_modules/@img/sharp-win32-arm64' ]
+114 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/@img/sharp-wasm32
+115 silly reify mark deleted [ '/Users/hw24a094/Logos/node_modules/@img/sharp-wasm32' ]
+116 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/@img/sharp-linuxmusl-x64
+117 silly reify mark deleted [ '/Users/hw24a094/Logos/node_modules/@img/sharp-linuxmusl-x64' ]
+118 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/@img/sharp-linuxmusl-arm64
+119 silly reify mark deleted [ '/Users/hw24a094/Logos/node_modules/@img/sharp-linuxmusl-arm64' ]
+120 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/@img/sharp-linux-x64
+121 silly reify mark deleted [ '/Users/hw24a094/Logos/node_modules/@img/sharp-linux-x64' ]
+122 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/@img/sharp-linux-s390x
+123 silly reify mark deleted [ '/Users/hw24a094/Logos/node_modules/@img/sharp-linux-s390x' ]
+124 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/@img/sharp-linux-riscv64
+125 silly reify mark deleted [ '/Users/hw24a094/Logos/node_modules/@img/sharp-linux-riscv64' ]
+126 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/@img/sharp-linux-ppc64
+127 silly reify mark deleted [ '/Users/hw24a094/Logos/node_modules/@img/sharp-linux-ppc64' ]
+128 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/@img/sharp-linux-arm64
+129 silly reify mark deleted [ '/Users/hw24a094/Logos/node_modules/@img/sharp-linux-arm64' ]
+130 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/@img/sharp-linux-arm
+131 silly reify mark deleted [ '/Users/hw24a094/Logos/node_modules/@img/sharp-linux-arm' ]
+132 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/@img/sharp-libvips-linuxmusl-x64
+133 silly reify mark deleted [
+133 silly reify   '/Users/hw24a094/Logos/node_modules/@img/sharp-libvips-linuxmusl-x64'
+133 silly reify ]
+134 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/@img/sharp-libvips-linuxmusl-arm64
+135 silly reify mark deleted [
+135 silly reify   '/Users/hw24a094/Logos/node_modules/@img/sharp-libvips-linuxmusl-arm64'
+135 silly reify ]
+136 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/@img/sharp-libvips-linux-x64
+137 silly reify mark deleted [ '/Users/hw24a094/Logos/node_modules/@img/sharp-libvips-linux-x64' ]
+138 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/@img/sharp-libvips-linux-s390x
+139 silly reify mark deleted [ '/Users/hw24a094/Logos/node_modules/@img/sharp-libvips-linux-s390x' ]
+140 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/@img/sharp-libvips-linux-riscv64
+141 silly reify mark deleted [
+141 silly reify   '/Users/hw24a094/Logos/node_modules/@img/sharp-libvips-linux-riscv64'
+141 silly reify ]
+142 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/@img/sharp-libvips-linux-ppc64
+143 silly reify mark deleted [ '/Users/hw24a094/Logos/node_modules/@img/sharp-libvips-linux-ppc64' ]
+144 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/@img/sharp-libvips-linux-arm64
+145 silly reify mark deleted [ '/Users/hw24a094/Logos/node_modules/@img/sharp-libvips-linux-arm64' ]
+146 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/@img/sharp-libvips-linux-arm
+147 silly reify mark deleted [ '/Users/hw24a094/Logos/node_modules/@img/sharp-libvips-linux-arm' ]
+148 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/@img/sharp-libvips-darwin-x64
+149 silly reify mark deleted [ '/Users/hw24a094/Logos/node_modules/@img/sharp-libvips-darwin-x64' ]
+150 verbose reify failed optional dependency /Users/hw24a094/Logos/node_modules/@img/sharp-darwin-x64
+151 silly reify mark deleted [ '/Users/hw24a094/Logos/node_modules/@img/sharp-darwin-x64' ]
+152 http cache zod-validation-error@https://registry.npmjs.org/zod-validation-error/-/zod-validation-error-4.0.2.tgz 0ms (cache hit)
+153 http cache yocto-queue@https://registry.npmjs.org/yocto-queue/-/yocto-queue-0.1.0.tgz 0ms (cache hit)
+154 http cache word-wrap@https://registry.npmjs.org/word-wrap/-/word-wrap-1.2.5.tgz 0ms (cache hit)
+155 http cache zod@https://registry.npmjs.org/zod/-/zod-4.2.1.tgz 0ms (cache hit)
+156 http cache which-typed-array@https://registry.npmjs.org/which-typed-array/-/which-typed-array-1.1.19.tgz 0ms (cache hit)
+157 http cache yallist@https://registry.npmjs.org/yallist/-/yallist-3.1.1.tgz 0ms (cache hit)
+158 http cache which-builtin-type@https://registry.npmjs.org/which-builtin-type/-/which-builtin-type-1.2.1.tgz 0ms (cache hit)
+159 http cache which-collection@https://registry.npmjs.org/which-collection/-/which-collection-1.0.2.tgz 0ms (cache hit)
+160 http cache which-boxed-primitive@https://registry.npmjs.org/which-boxed-primitive/-/which-boxed-primitive-1.1.1.tgz 0ms (cache hit)
+161 http cache which@https://registry.npmjs.org/which/-/which-2.0.2.tgz 0ms (cache hit)
+162 http cache update-browserslist-db@https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.2.3.tgz 0ms (cache hit)
+163 http cache unrs-resolver@https://registry.npmjs.org/unrs-resolver/-/unrs-resolver-1.11.1.tgz 0ms (cache hit)
+164 http cache uri-js@https://registry.npmjs.org/uri-js/-/uri-js-4.4.1.tgz 0ms (cache hit)
+165 http cache undici-types@https://registry.npmjs.org/undici-types/-/undici-types-6.21.0.tgz 0ms (cache hit)
+166 http cache unbox-primitive@https://registry.npmjs.org/unbox-primitive/-/unbox-primitive-1.1.0.tgz 0ms (cache hit)
+167 http cache typescript-eslint@https://registry.npmjs.org/typescript-eslint/-/typescript-eslint-8.50.0.tgz 0ms (cache hit)
+168 http cache typed-array-length@https://registry.npmjs.org/typed-array-length/-/typed-array-length-1.0.7.tgz 0ms (cache hit)
+169 http cache typed-array-byte-offset@https://registry.npmjs.org/typed-array-byte-offset/-/typed-array-byte-offset-1.0.4.tgz 0ms (cache hit)
+170 http cache typed-array-byte-length@https://registry.npmjs.org/typed-array-byte-length/-/typed-array-byte-length-1.0.3.tgz 0ms (cache hit)
+171 http cache typescript@https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz 0ms (cache hit)
+172 http cache tslib@https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz 0ms (cache hit)
+173 http cache type-check@https://registry.npmjs.org/type-check/-/type-check-0.4.0.tgz 0ms (cache hit)
+174 http cache typed-array-buffer@https://registry.npmjs.org/typed-array-buffer/-/typed-array-buffer-1.0.3.tgz 0ms (cache hit)
+175 http cache tsconfig-paths@https://registry.npmjs.org/tsconfig-paths/-/tsconfig-paths-3.15.0.tgz 0ms (cache hit)
+176 http cache ts-api-utils@https://registry.npmjs.org/ts-api-utils/-/ts-api-utils-2.1.0.tgz 0ms (cache hit)
+177 http cache tinyglobby@https://registry.npmjs.org/tinyglobby/-/tinyglobby-0.2.15.tgz 0ms (cache hit)
+178 http cache tailwindcss@https://registry.npmjs.org/tailwindcss/-/tailwindcss-4.1.18.tgz 0ms (cache hit)
+179 http cache to-regex-range@https://registry.npmjs.org/to-regex-range/-/to-regex-range-5.0.1.tgz 0ms (cache hit)
+180 http cache tapable@https://registry.npmjs.org/tapable/-/tapable-2.3.0.tgz 0ms (cache hit)
+181 http cache supports-preserve-symlinks-flag@https://registry.npmjs.org/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz 0ms (cache hit)
+182 http cache tailwind-merge@https://registry.npmjs.org/tailwind-merge/-/tailwind-merge-3.4.0.tgz 0ms (cache hit)
+183 http cache strip-json-comments@https://registry.npmjs.org/strip-json-comments/-/strip-json-comments-3.1.1.tgz 0ms (cache hit)
+184 http cache supports-color@https://registry.npmjs.org/supports-color/-/supports-color-7.2.0.tgz 0ms (cache hit)
+185 http cache strip-bom@https://registry.npmjs.org/strip-bom/-/strip-bom-3.0.0.tgz 0ms (cache hit)
+186 http cache string.prototype.trimstart@https://registry.npmjs.org/string.prototype.trimstart/-/string.prototype.trimstart-1.0.8.tgz 0ms (cache hit)
+187 http cache string.prototype.trimend@https://registry.npmjs.org/string.prototype.trimend/-/string.prototype.trimend-1.0.9.tgz 0ms (cache hit)
+188 http cache string.prototype.trim@https://registry.npmjs.org/string.prototype.trim/-/string.prototype.trim-1.2.10.tgz 0ms (cache hit)
+189 http cache styled-jsx@https://registry.npmjs.org/styled-jsx/-/styled-jsx-5.1.6.tgz 0ms (cache hit)
+190 http cache string.prototype.repeat@https://registry.npmjs.org/string.prototype.repeat/-/string.prototype.repeat-1.0.0.tgz 0ms (cache hit)
+191 http cache string.prototype.matchall@https://registry.npmjs.org/string.prototype.matchall/-/string.prototype.matchall-4.0.12.tgz 0ms (cache hit)
+192 http cache string.prototype.includes@https://registry.npmjs.org/string.prototype.includes/-/string.prototype.includes-2.0.1.tgz 0ms (cache hit)
+193 http cache stop-iteration-iterator@https://registry.npmjs.org/stop-iteration-iterator/-/stop-iteration-iterator-1.1.0.tgz 0ms (cache hit)
+194 http cache stable-hash@https://registry.npmjs.org/stable-hash/-/stable-hash-0.0.5.tgz 0ms (cache hit)
+195 http cache side-channel-weakmap@https://registry.npmjs.org/side-channel-weakmap/-/side-channel-weakmap-1.0.2.tgz 0ms (cache hit)
+196 http cache side-channel-map@https://registry.npmjs.org/side-channel-map/-/side-channel-map-1.0.1.tgz 0ms (cache hit)
+197 http cache source-map-js@https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.1.tgz 0ms (cache hit)
+198 http cache side-channel@https://registry.npmjs.org/side-channel/-/side-channel-1.1.0.tgz 0ms (cache hit)
+199 http cache side-channel-list@https://registry.npmjs.org/side-channel-list/-/side-channel-list-1.0.0.tgz 0ms (cache hit)
+200 http cache shebang-command@https://registry.npmjs.org/shebang-command/-/shebang-command-2.0.0.tgz 0ms (cache hit)
+201 http cache set-proto@https://registry.npmjs.org/set-proto/-/set-proto-1.0.0.tgz 0ms (cache hit)
+202 http cache sharp@https://registry.npmjs.org/sharp/-/sharp-0.34.5.tgz 0ms (cache hit)
+203 http cache set-function-name@https://registry.npmjs.org/set-function-name/-/set-function-name-2.0.2.tgz 0ms (cache hit)
+204 http cache shebang-regex@https://registry.npmjs.org/shebang-regex/-/shebang-regex-3.0.0.tgz 0ms (cache hit)
+205 http cache set-function-length@https://registry.npmjs.org/set-function-length/-/set-function-length-1.2.2.tgz 0ms (cache hit)
+206 http cache scheduler@https://registry.npmjs.org/scheduler/-/scheduler-0.27.0.tgz 0ms (cache hit)
+207 http cache semver@https://registry.npmjs.org/semver/-/semver-6.3.1.tgz 0ms (cache hit)
+208 http cache safe-regex-test@https://registry.npmjs.org/safe-regex-test/-/safe-regex-test-1.1.0.tgz 0ms (cache hit)
+209 http cache safe-array-concat@https://registry.npmjs.org/safe-array-concat/-/safe-array-concat-1.1.3.tgz 0ms (cache hit)
+210 http cache run-parallel@https://registry.npmjs.org/run-parallel/-/run-parallel-1.2.0.tgz 0ms (cache hit)
+211 http cache reusify@https://registry.npmjs.org/reusify/-/reusify-1.1.0.tgz 0ms (cache hit)
+212 http cache resolve-from@https://registry.npmjs.org/resolve-from/-/resolve-from-4.0.0.tgz 0ms (cache hit)
+213 http cache safe-push-apply@https://registry.npmjs.org/safe-push-apply/-/safe-push-apply-1.0.0.tgz 0ms (cache hit)
+214 http cache regexp.prototype.flags@https://registry.npmjs.org/regexp.prototype.flags/-/regexp.prototype.flags-1.5.4.tgz 0ms (cache hit)
+215 http cache resolve@https://registry.npmjs.org/resolve/-/resolve-1.22.11.tgz 0ms (cache hit)
+216 http cache reflect.getprototypeof@https://registry.npmjs.org/reflect.getprototypeof/-/reflect.getprototypeof-1.0.10.tgz 0ms (cache hit)
+217 http cache react-dom@https://registry.npmjs.org/react-dom/-/react-dom-19.2.3.tgz 0ms (cache hit)
+218 http cache react-is@https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz 0ms (cache hit)
+219 http cache react@https://registry.npmjs.org/react/-/react-19.2.3.tgz 0ms (cache hit)
+220 http cache queue-microtask@https://registry.npmjs.org/queue-microtask/-/queue-microtask-1.2.3.tgz 0ms (cache hit)
+221 http cache punycode@https://registry.npmjs.org/punycode/-/punycode-2.3.1.tgz 0ms (cache hit)
+222 http cache resolve-pkg-maps@https://registry.npmjs.org/resolve-pkg-maps/-/resolve-pkg-maps-1.0.0.tgz 0ms (cache hit)
+223 http cache prop-types@https://registry.npmjs.org/prop-types/-/prop-types-15.8.1.tgz 0ms (cache hit)
+224 http cache prelude-ls@https://registry.npmjs.org/prelude-ls/-/prelude-ls-1.2.1.tgz 0ms (cache hit)
+225 http cache postcss@https://registry.npmjs.org/postcss/-/postcss-8.5.6.tgz 0ms (cache hit)
+226 http cache picomatch@https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz 0ms (cache hit)
+227 http cache picocolors@https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz 0ms (cache hit)
+228 http cache path-parse@https://registry.npmjs.org/path-parse/-/path-parse-1.0.7.tgz 0ms (cache hit)
+229 http cache path-exists@https://registry.npmjs.org/path-exists/-/path-exists-4.0.0.tgz 0ms (cache hit)
+230 http cache possible-typed-array-names@https://registry.npmjs.org/possible-typed-array-names/-/possible-typed-array-names-1.1.0.tgz 0ms (cache hit)
+231 http cache path-key@https://registry.npmjs.org/path-key/-/path-key-3.1.1.tgz 0ms (cache hit)
+232 http cache parent-module@https://registry.npmjs.org/parent-module/-/parent-module-1.0.1.tgz 0ms (cache hit)
+233 http cache p-locate@https://registry.npmjs.org/p-locate/-/p-locate-5.0.0.tgz 0ms (cache hit)
+234 http cache own-keys@https://registry.npmjs.org/own-keys/-/own-keys-1.0.1.tgz 0ms (cache hit)
+235 http cache object.values@https://registry.npmjs.org/object.values/-/object.values-1.2.1.tgz 0ms (cache hit)
+236 http cache optionator@https://registry.npmjs.org/optionator/-/optionator-0.9.4.tgz 0ms (cache hit)
+237 http cache object.groupby@https://registry.npmjs.org/object.groupby/-/object.groupby-1.0.3.tgz 0ms (cache hit)
+238 http cache p-limit@https://registry.npmjs.org/p-limit/-/p-limit-3.1.0.tgz 0ms (cache hit)
+239 http cache object.entries@https://registry.npmjs.org/object.entries/-/object.entries-1.1.9.tgz 0ms (cache hit)
+240 http cache object-keys@https://registry.npmjs.org/object-keys/-/object-keys-1.1.1.tgz 0ms (cache hit)
+241 http cache object-inspect@https://registry.npmjs.org/object-inspect/-/object-inspect-1.13.4.tgz 0ms (cache hit)
+242 http cache object-assign@https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz 0ms (cache hit)
+243 http cache object.fromentries@https://registry.npmjs.org/object.fromentries/-/object.fromentries-2.0.8.tgz 0ms (cache hit)
+244 http cache node-releases@https://registry.npmjs.org/node-releases/-/node-releases-2.0.27.tgz 0ms (cache hit)
+245 http cache object.assign@https://registry.npmjs.org/object.assign/-/object.assign-4.1.7.tgz 0ms (cache hit)
+246 http cache natural-compare@https://registry.npmjs.org/natural-compare/-/natural-compare-1.4.0.tgz 0ms (cache hit)
+247 http cache nanoid@https://registry.npmjs.org/nanoid/-/nanoid-3.3.11.tgz 0ms (cache hit)
+248 http cache motion-utils@https://registry.npmjs.org/motion-utils/-/motion-utils-12.23.6.tgz 0ms (cache hit)
+249 http cache ms@https://registry.npmjs.org/ms/-/ms-2.1.3.tgz 0ms (cache hit)
+250 http cache motion-dom@https://registry.npmjs.org/motion-dom/-/motion-dom-12.23.23.tgz 0ms (cache hit)
+251 http cache minimist@https://registry.npmjs.org/minimist/-/minimist-1.2.8.tgz 0ms (cache hit)
+252 http cache minimatch@https://registry.npmjs.org/minimatch/-/minimatch-3.1.2.tgz 0ms (cache hit)
+253 http cache micromatch@https://registry.npmjs.org/micromatch/-/micromatch-4.0.8.tgz 0ms (cache hit)
+254 http cache napi-postinstall@https://registry.npmjs.org/napi-postinstall/-/napi-postinstall-0.3.4.tgz 0ms (cache hit)
+255 http cache merge2@https://registry.npmjs.org/merge2/-/merge2-1.4.1.tgz 0ms (cache hit)
+256 http cache next@https://registry.npmjs.org/next/-/next-16.1.0.tgz 0ms (cache hit)
+257 http cache magic-string@https://registry.npmjs.org/magic-string/-/magic-string-0.30.21.tgz 0ms (cache hit)
+258 http cache math-intrinsics@https://registry.npmjs.org/math-intrinsics/-/math-intrinsics-1.1.0.tgz 0ms (cache hit)
+259 http cache lru-cache@https://registry.npmjs.org/lru-cache/-/lru-cache-5.1.1.tgz 0ms (cache hit)
+260 http cache lucide-react@https://registry.npmjs.org/lucide-react/-/lucide-react-0.562.0.tgz 0ms (cache hit)
+261 http cache lodash.merge@https://registry.npmjs.org/lodash.merge/-/lodash.merge-4.6.2.tgz 0ms (cache hit)
+262 http cache locate-path@https://registry.npmjs.org/locate-path/-/locate-path-6.0.0.tgz 0ms (cache hit)
+263 http cache lightningcss-darwin-arm64@https://registry.npmjs.org/lightningcss-darwin-arm64/-/lightningcss-darwin-arm64-1.30.2.tgz 0ms (cache hit)
+264 http cache lightningcss@https://registry.npmjs.org/lightningcss/-/lightningcss-1.30.2.tgz 0ms (cache hit)
+265 http cache levn@https://registry.npmjs.org/levn/-/levn-0.4.1.tgz 0ms (cache hit)
+266 http cache language-tags@https://registry.npmjs.org/language-tags/-/language-tags-1.0.9.tgz 0ms (cache hit)
+267 http cache language-subtag-registry@https://registry.npmjs.org/language-subtag-registry/-/language-subtag-registry-0.3.23.tgz 0ms (cache hit)
+268 http cache jsx-ast-utils@https://registry.npmjs.org/jsx-ast-utils/-/jsx-ast-utils-3.3.5.tgz 0ms (cache hit)
+269 http cache keyv@https://registry.npmjs.org/keyv/-/keyv-4.5.4.tgz 0ms (cache hit)
+270 http cache loose-envify@https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz 0ms (cache hit)
+271 http cache json-schema@https://registry.npmjs.org/json-schema/-/json-schema-0.4.0.tgz 0ms (cache hit)
+272 http cache json5@https://registry.npmjs.org/json5/-/json5-2.2.3.tgz 0ms (cache hit)
+273 http cache json-schema-traverse@https://registry.npmjs.org/json-schema-traverse/-/json-schema-traverse-0.4.1.tgz 0ms (cache hit)
+274 http cache json-buffer@https://registry.npmjs.org/json-buffer/-/json-buffer-3.0.1.tgz 0ms (cache hit)
+275 http cache json-stable-stringify-without-jsonify@https://registry.npmjs.org/json-stable-stringify-without-jsonify/-/json-stable-stringify-without-jsonify-1.0.1.tgz 0ms (cache hit)
+276 http cache jsesc@https://registry.npmjs.org/jsesc/-/jsesc-3.1.0.tgz 0ms (cache hit)
+277 http cache js-yaml@https://registry.npmjs.org/js-yaml/-/js-yaml-4.1.1.tgz 0ms (cache hit)
+278 http cache js-tokens@https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz 0ms (cache hit)
+279 http cache jiti@https://registry.npmjs.org/jiti/-/jiti-2.6.1.tgz 0ms (cache hit)
+280 http cache iterator.prototype@https://registry.npmjs.org/iterator.prototype/-/iterator.prototype-1.1.5.tgz 0ms (cache hit)
+281 http cache isexe@https://registry.npmjs.org/isexe/-/isexe-2.0.0.tgz 0ms (cache hit)
+282 http cache is-weakset@https://registry.npmjs.org/is-weakset/-/is-weakset-2.0.4.tgz 0ms (cache hit)
+283 http cache isarray@https://registry.npmjs.org/isarray/-/isarray-2.0.5.tgz 0ms (cache hit)
+284 http cache is-weakref@https://registry.npmjs.org/is-weakref/-/is-weakref-1.1.1.tgz 0ms (cache hit)
+285 http cache is-weakmap@https://registry.npmjs.org/is-weakmap/-/is-weakmap-2.0.2.tgz 0ms (cache hit)
+286 http cache is-symbol@https://registry.npmjs.org/is-symbol/-/is-symbol-1.1.1.tgz 0ms (cache hit)
+287 http cache is-string@https://registry.npmjs.org/is-string/-/is-string-1.1.1.tgz 0ms (cache hit)
+288 http cache is-shared-array-buffer@https://registry.npmjs.org/is-shared-array-buffer/-/is-shared-array-buffer-1.0.4.tgz 0ms (cache hit)
+289 http cache is-set@https://registry.npmjs.org/is-set/-/is-set-2.0.3.tgz 0ms (cache hit)
+290 http cache is-typed-array@https://registry.npmjs.org/is-typed-array/-/is-typed-array-1.1.15.tgz 0ms (cache hit)
+291 http cache is-regex@https://registry.npmjs.org/is-regex/-/is-regex-1.2.1.tgz 0ms (cache hit)
+292 http cache is-number-object@https://registry.npmjs.org/is-number-object/-/is-number-object-1.1.1.tgz 0ms (cache hit)
+293 http cache is-negative-zero@https://registry.npmjs.org/is-negative-zero/-/is-negative-zero-2.0.3.tgz 0ms (cache hit)
+294 http cache is-map@https://registry.npmjs.org/is-map/-/is-map-2.0.3.tgz 0ms (cache hit)
+295 http cache is-number@https://registry.npmjs.org/is-number/-/is-number-7.0.0.tgz 0ms (cache hit)
+296 http cache is-generator-function@https://registry.npmjs.org/is-generator-function/-/is-generator-function-1.1.2.tgz 0ms (cache hit)
+297 http cache is-finalizationregistry@https://registry.npmjs.org/is-finalizationregistry/-/is-finalizationregistry-1.1.1.tgz 0ms (cache hit)
+298 http cache is-extglob@https://registry.npmjs.org/is-extglob/-/is-extglob-2.1.1.tgz 0ms (cache hit)
+299 http cache is-date-object@https://registry.npmjs.org/is-date-object/-/is-date-object-1.1.0.tgz 0ms (cache hit)
+300 http cache is-data-view@https://registry.npmjs.org/is-data-view/-/is-data-view-1.0.2.tgz 0ms (cache hit)
+301 http cache is-core-module@https://registry.npmjs.org/is-core-module/-/is-core-module-2.16.1.tgz 0ms (cache hit)
+302 http cache is-glob@https://registry.npmjs.org/is-glob/-/is-glob-4.0.3.tgz 0ms (cache hit)
+303 http cache is-callable@https://registry.npmjs.org/is-callable/-/is-callable-1.2.7.tgz 0ms (cache hit)
+304 http cache is-bun-module@https://registry.npmjs.org/is-bun-module/-/is-bun-module-2.0.0.tgz 0ms (cache hit)
+305 http cache is-bigint@https://registry.npmjs.org/is-bigint/-/is-bigint-1.1.0.tgz 0ms (cache hit)
+306 http cache is-async-function@https://registry.npmjs.org/is-async-function/-/is-async-function-2.1.1.tgz 0ms (cache hit)
+307 http cache is-array-buffer@https://registry.npmjs.org/is-array-buffer/-/is-array-buffer-3.0.5.tgz 0ms (cache hit)
+308 http cache imurmurhash@https://registry.npmjs.org/imurmurhash/-/imurmurhash-0.1.4.tgz 0ms (cache hit)
+309 http cache internal-slot@https://registry.npmjs.org/internal-slot/-/internal-slot-1.1.0.tgz 0ms (cache hit)
+310 http cache is-boolean-object@https://registry.npmjs.org/is-boolean-object/-/is-boolean-object-1.2.2.tgz 0ms (cache hit)
+311 http cache import-fresh@https://registry.npmjs.org/import-fresh/-/import-fresh-3.3.1.tgz 0ms (cache hit)
+312 http cache hermes-estree@https://registry.npmjs.org/hermes-estree/-/hermes-estree-0.25.1.tgz 0ms (cache hit)
+313 http cache ignore@https://registry.npmjs.org/ignore/-/ignore-5.3.2.tgz 0ms (cache hit)
+314 http cache hermes-parser@https://registry.npmjs.org/hermes-parser/-/hermes-parser-0.25.1.tgz 0ms (cache hit)
+315 http cache hasown@https://registry.npmjs.org/hasown/-/hasown-2.0.2.tgz 0ms (cache hit)
+316 http cache has-symbols@https://registry.npmjs.org/has-symbols/-/has-symbols-1.1.0.tgz 0ms (cache hit)
+317 http cache has-proto@https://registry.npmjs.org/has-proto/-/has-proto-1.2.0.tgz 0ms (cache hit)
+318 http cache has-property-descriptors@https://registry.npmjs.org/has-property-descriptors/-/has-property-descriptors-1.0.2.tgz 0ms (cache hit)
+319 http cache has-flag@https://registry.npmjs.org/has-flag/-/has-flag-4.0.0.tgz 0ms (cache hit)
+320 http cache has-tostringtag@https://registry.npmjs.org/has-tostringtag/-/has-tostringtag-1.0.2.tgz 0ms (cache hit)
+321 http cache gopd@https://registry.npmjs.org/gopd/-/gopd-1.2.0.tgz 0ms (cache hit)
+322 http cache graceful-fs@https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.11.tgz 0ms (cache hit)
+323 http cache has-bigints@https://registry.npmjs.org/has-bigints/-/has-bigints-1.1.0.tgz 1ms (cache hit)
+324 http cache globalthis@https://registry.npmjs.org/globalthis/-/globalthis-1.0.4.tgz 0ms (cache hit)
+325 http cache glob-parent@https://registry.npmjs.org/glob-parent/-/glob-parent-6.0.2.tgz 0ms (cache hit)
+326 http cache get-symbol-description@https://registry.npmjs.org/get-symbol-description/-/get-symbol-description-1.1.0.tgz 0ms (cache hit)
+327 http cache globals@https://registry.npmjs.org/globals/-/globals-14.0.0.tgz 0ms (cache hit)
+328 http cache get-intrinsic@https://registry.npmjs.org/get-intrinsic/-/get-intrinsic-1.3.0.tgz 0ms (cache hit)
+329 http cache gensync@https://registry.npmjs.org/gensync/-/gensync-1.0.0-beta.2.tgz 0ms (cache hit)
+330 http cache generator-function@https://registry.npmjs.org/generator-function/-/generator-function-2.0.1.tgz 0ms (cache hit)
+331 http cache get-proto@https://registry.npmjs.org/get-proto/-/get-proto-1.0.1.tgz 0ms (cache hit)
+332 http cache functions-have-names@https://registry.npmjs.org/functions-have-names/-/functions-have-names-1.2.3.tgz 0ms (cache hit)
+333 http cache function.prototype.name@https://registry.npmjs.org/function.prototype.name/-/function.prototype.name-1.1.8.tgz 0ms (cache hit)
+334 http cache function-bind@https://registry.npmjs.org/function-bind/-/function-bind-1.1.2.tgz 0ms (cache hit)
+335 http cache for-each@https://registry.npmjs.org/for-each/-/for-each-0.3.5.tgz 0ms (cache hit)
+336 http cache flatted@https://registry.npmjs.org/flatted/-/flatted-3.3.3.tgz 0ms (cache hit)
+337 http cache framer-motion@https://registry.npmjs.org/framer-motion/-/framer-motion-12.23.26.tgz 0ms (cache hit)
+338 http cache flat-cache@https://registry.npmjs.org/flat-cache/-/flat-cache-4.0.1.tgz 0ms (cache hit)
+339 http cache fill-range@https://registry.npmjs.org/fill-range/-/fill-range-7.1.1.tgz 0ms (cache hit)
+340 http cache find-up@https://registry.npmjs.org/find-up/-/find-up-5.0.0.tgz 0ms (cache hit)
+341 http cache file-entry-cache@https://registry.npmjs.org/file-entry-cache/-/file-entry-cache-8.0.0.tgz 0ms (cache hit)
+342 http cache fast-levenshtein@https://registry.npmjs.org/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz 0ms (cache hit)
+343 http cache fastq@https://registry.npmjs.org/fastq/-/fastq-1.19.1.tgz 0ms (cache hit)
+344 http cache fast-json-stable-stringify@https://registry.npmjs.org/fast-json-stable-stringify/-/fast-json-stable-stringify-2.1.0.tgz 0ms (cache hit)
+345 http cache fast-deep-equal@https://registry.npmjs.org/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz 0ms (cache hit)
+346 http cache fast-glob@https://registry.npmjs.org/fast-glob/-/fast-glob-3.3.1.tgz 0ms (cache hit)
+347 http cache eventsource-parser@https://registry.npmjs.org/eventsource-parser/-/eventsource-parser-3.0.6.tgz 0ms (cache hit)
+348 http cache get-tsconfig@https://registry.npmjs.org/get-tsconfig/-/get-tsconfig-4.13.0.tgz 0ms (cache hit)
+349 http cache estraverse@https://registry.npmjs.org/estraverse/-/estraverse-5.3.0.tgz 0ms (cache hit)
+350 http cache esutils@https://registry.npmjs.org/esutils/-/esutils-2.0.3.tgz 0ms (cache hit)
+351 http cache esrecurse@https://registry.npmjs.org/esrecurse/-/esrecurse-4.3.0.tgz 0ms (cache hit)
+352 http cache espree@https://registry.npmjs.org/espree/-/espree-10.4.0.tgz 0ms (cache hit)
+353 http cache esquery@https://registry.npmjs.org/esquery/-/esquery-1.6.0.tgz 0ms (cache hit)
+354 http cache eslint-scope@https://registry.npmjs.org/eslint-scope/-/eslint-scope-8.4.0.tgz 0ms (cache hit)
+355 http cache eslint-visitor-keys@https://registry.npmjs.org/eslint-visitor-keys/-/eslint-visitor-keys-4.2.1.tgz 0ms (cache hit)
+356 http cache eslint-plugin-react@https://registry.npmjs.org/eslint-plugin-react/-/eslint-plugin-react-7.37.5.tgz 0ms (cache hit)
+357 http cache eslint-plugin-jsx-a11y@https://registry.npmjs.org/eslint-plugin-jsx-a11y/-/eslint-plugin-jsx-a11y-6.10.2.tgz 0ms (cache hit)
+358 http cache eslint-plugin-react-hooks@https://registry.npmjs.org/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-7.0.1.tgz 0ms (cache hit)
+359 http cache eslint-plugin-import@https://registry.npmjs.org/eslint-plugin-import/-/eslint-plugin-import-2.32.0.tgz 0ms (cache hit)
+360 http cache eslint-module-utils@https://registry.npmjs.org/eslint-module-utils/-/eslint-module-utils-2.12.1.tgz 0ms (cache hit)
+361 http cache eslint-import-resolver-node@https://registry.npmjs.org/eslint-import-resolver-node/-/eslint-import-resolver-node-0.3.9.tgz 0ms (cache hit)
+362 http cache eslint-config-next@https://registry.npmjs.org/eslint-config-next/-/eslint-config-next-16.1.0.tgz 0ms (cache hit)
+363 http cache eslint@https://registry.npmjs.org/eslint/-/eslint-9.39.2.tgz 0ms (cache hit)
+364 http cache eslint-import-resolver-typescript@https://registry.npmjs.org/eslint-import-resolver-typescript/-/eslint-import-resolver-typescript-3.10.1.tgz 0ms (cache hit)
+365 http cache escape-string-regexp@https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz 0ms (cache hit)
+366 http cache escalade@https://registry.npmjs.org/escalade/-/escalade-3.2.0.tgz 0ms (cache hit)
+367 http cache es-to-primitive@https://registry.npmjs.org/es-to-primitive/-/es-to-primitive-1.3.0.tgz 0ms (cache hit)
+368 http cache es-shim-unscopables@https://registry.npmjs.org/es-shim-unscopables/-/es-shim-unscopables-1.1.0.tgz 0ms (cache hit)
+369 http cache es-object-atoms@https://registry.npmjs.org/es-object-atoms/-/es-object-atoms-1.1.1.tgz 0ms (cache hit)
+370 http cache es-iterator-helpers@https://registry.npmjs.org/es-iterator-helpers/-/es-iterator-helpers-1.2.2.tgz 0ms (cache hit)
+371 http cache es-set-tostringtag@https://registry.npmjs.org/es-set-tostringtag/-/es-set-tostringtag-2.1.0.tgz 0ms (cache hit)
+372 http cache es-define-property@https://registry.npmjs.org/es-define-property/-/es-define-property-1.0.1.tgz 0ms (cache hit)
+373 http cache es-abstract@https://registry.npmjs.org/es-abstract/-/es-abstract-1.24.1.tgz 0ms (cache hit)
+374 http cache enhanced-resolve@https://registry.npmjs.org/enhanced-resolve/-/enhanced-resolve-5.18.4.tgz 0ms (cache hit)
+375 http cache electron-to-chromium@https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.267.tgz 0ms (cache hit)
+376 http cache emoji-regex@https://registry.npmjs.org/emoji-regex/-/emoji-regex-9.2.2.tgz 0ms (cache hit)
+377 http cache dunder-proto@https://registry.npmjs.org/dunder-proto/-/dunder-proto-1.0.1.tgz 0ms (cache hit)
+378 http cache doctrine@https://registry.npmjs.org/doctrine/-/doctrine-2.1.0.tgz 0ms (cache hit)
+379 http cache detect-libc@https://registry.npmjs.org/detect-libc/-/detect-libc-2.1.2.tgz 0ms (cache hit)
+380 http cache es-errors@https://registry.npmjs.org/es-errors/-/es-errors-1.3.0.tgz 0ms (cache hit)
+381 http cache define-data-property@https://registry.npmjs.org/define-data-property/-/define-data-property-1.1.4.tgz 0ms (cache hit)
+382 http cache define-properties@https://registry.npmjs.org/define-properties/-/define-properties-1.2.1.tgz 0ms (cache hit)
+383 http cache deep-is@https://registry.npmjs.org/deep-is/-/deep-is-0.1.4.tgz 0ms (cache hit)
+384 http cache debug@https://registry.npmjs.org/debug/-/debug-4.4.3.tgz 0ms (cache hit)
+385 http cache data-view-byte-length@https://registry.npmjs.org/data-view-byte-length/-/data-view-byte-length-1.0.2.tgz 0ms (cache hit)
+386 http cache data-view-buffer@https://registry.npmjs.org/data-view-buffer/-/data-view-buffer-1.0.2.tgz 0ms (cache hit)
+387 http cache data-view-byte-offset@https://registry.npmjs.org/data-view-byte-offset/-/data-view-byte-offset-1.0.1.tgz 0ms (cache hit)
+388 http cache damerau-levenshtein@https://registry.npmjs.org/damerau-levenshtein/-/damerau-levenshtein-1.0.8.tgz 0ms (cache hit)
+389 http cache cross-spawn@https://registry.npmjs.org/cross-spawn/-/cross-spawn-7.0.6.tgz 0ms (cache hit)
+390 http cache csstype@https://registry.npmjs.org/csstype/-/csstype-3.2.3.tgz 0ms (cache hit)
+391 http cache convert-source-map@https://registry.npmjs.org/convert-source-map/-/convert-source-map-2.0.0.tgz 0ms (cache hit)
+392 http cache concat-map@https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz 0ms (cache hit)
+393 http cache color-name@https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz 0ms (cache hit)
+394 http cache clsx@https://registry.npmjs.org/clsx/-/clsx-2.1.1.tgz 0ms (cache hit)
+395 http cache color-convert@https://registry.npmjs.org/color-convert/-/color-convert-2.0.1.tgz 0ms (cache hit)
+396 http cache chalk@https://registry.npmjs.org/chalk/-/chalk-4.1.2.tgz 0ms (cache hit)
+397 http cache client-only@https://registry.npmjs.org/client-only/-/client-only-0.0.1.tgz 0ms (cache hit)
+398 http cache caniuse-lite@https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001761.tgz 0ms (cache hit)
+399 http cache call-bound@https://registry.npmjs.org/call-bound/-/call-bound-1.0.4.tgz 0ms (cache hit)
+400 http cache call-bind@https://registry.npmjs.org/call-bind/-/call-bind-1.0.8.tgz 0ms (cache hit)
+401 http cache call-bind-apply-helpers@https://registry.npmjs.org/call-bind-apply-helpers/-/call-bind-apply-helpers-1.0.2.tgz 0ms (cache hit)
+402 http cache braces@https://registry.npmjs.org/braces/-/braces-3.0.3.tgz 0ms (cache hit)
+403 http cache browserslist@https://registry.npmjs.org/browserslist/-/browserslist-4.28.1.tgz 0ms (cache hit)
+404 http cache baseline-browser-mapping@https://registry.npmjs.org/baseline-browser-mapping/-/baseline-browser-mapping-2.9.11.tgz 0ms (cache hit)
+405 http cache brace-expansion@https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.12.tgz 0ms (cache hit)
+406 http cache callsites@https://registry.npmjs.org/callsites/-/callsites-3.1.0.tgz 0ms (cache hit)
+407 http cache axobject-query@https://registry.npmjs.org/axobject-query/-/axobject-query-4.1.0.tgz 0ms (cache hit)
+408 http cache balanced-match@https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.2.tgz 0ms (cache hit)
+409 http cache available-typed-arrays@https://registry.npmjs.org/available-typed-arrays/-/available-typed-arrays-1.0.7.tgz 0ms (cache hit)
+410 http cache axe-core@https://registry.npmjs.org/axe-core/-/axe-core-4.11.0.tgz 0ms (cache hit)
+411 http cache async-function@https://registry.npmjs.org/async-function/-/async-function-1.0.0.tgz 0ms (cache hit)
+412 http cache arraybuffer.prototype.slice@https://registry.npmjs.org/arraybuffer.prototype.slice/-/arraybuffer.prototype.slice-1.0.4.tgz 0ms (cache hit)
+413 http cache ast-types-flow@https://registry.npmjs.org/ast-types-flow/-/ast-types-flow-0.0.8.tgz 0ms (cache hit)
+414 http cache array.prototype.flatmap@https://registry.npmjs.org/array.prototype.flatmap/-/array.prototype.flatmap-1.3.3.tgz 0ms (cache hit)
+415 http cache array.prototype.flat@https://registry.npmjs.org/array.prototype.flat/-/array.prototype.flat-1.3.3.tgz 0ms (cache hit)
+416 http cache array.prototype.findlastindex@https://registry.npmjs.org/array.prototype.findlastindex/-/array.prototype.findlastindex-1.2.6.tgz 0ms (cache hit)
+417 http cache array.prototype.tosorted@https://registry.npmjs.org/array.prototype.tosorted/-/array.prototype.tosorted-1.1.4.tgz 0ms (cache hit)
+418 http cache array-includes@https://registry.npmjs.org/array-includes/-/array-includes-3.1.9.tgz 0ms (cache hit)
+419 http cache array.prototype.findlast@https://registry.npmjs.org/array.prototype.findlast/-/array.prototype.findlast-1.2.5.tgz 0ms (cache hit)
+420 http cache aria-query@https://registry.npmjs.org/aria-query/-/aria-query-5.3.2.tgz 0ms (cache hit)
+421 http cache array-buffer-byte-length@https://registry.npmjs.org/array-buffer-byte-length/-/array-buffer-byte-length-1.0.2.tgz 0ms (cache hit)
+422 http cache ansi-styles@https://registry.npmjs.org/ansi-styles/-/ansi-styles-4.3.0.tgz 0ms (cache hit)
+423 http cache argparse@https://registry.npmjs.org/argparse/-/argparse-2.0.1.tgz 0ms (cache hit)
+424 http cache ajv@https://registry.npmjs.org/ajv/-/ajv-6.12.6.tgz 0ms (cache hit)
+425 http cache ai@https://registry.npmjs.org/ai/-/ai-5.0.116.tgz 0ms (cache hit)
+426 http cache acorn-jsx@https://registry.npmjs.org/acorn-jsx/-/acorn-jsx-5.3.2.tgz 0ms (cache hit)
+427 http cache @vercel/oidc@https://registry.npmjs.org/@vercel/oidc/-/oidc-3.0.5.tgz 0ms (cache hit)
+428 http cache acorn@https://registry.npmjs.org/acorn/-/acorn-8.15.0.tgz 0ms (cache hit)
+429 http cache @typescript-eslint/visitor-keys@https://registry.npmjs.org/@typescript-eslint/visitor-keys/-/visitor-keys-8.50.0.tgz 0ms (cache hit)
+430 http cache @unrs/resolver-binding-darwin-arm64@https://registry.npmjs.org/@unrs/resolver-binding-darwin-arm64/-/resolver-binding-darwin-arm64-1.11.1.tgz 0ms (cache hit)
+431 http cache @typescript-eslint/utils@https://registry.npmjs.org/@typescript-eslint/utils/-/utils-8.50.0.tgz 0ms (cache hit)
+432 http cache @typescript-eslint/typescript-estree@https://registry.npmjs.org/@typescript-eslint/typescript-estree/-/typescript-estree-8.50.0.tgz 0ms (cache hit)
+433 http cache @typescript-eslint/types@https://registry.npmjs.org/@typescript-eslint/types/-/types-8.50.0.tgz 0ms (cache hit)
+434 http cache @typescript-eslint/type-utils@https://registry.npmjs.org/@typescript-eslint/type-utils/-/type-utils-8.50.0.tgz 0ms (cache hit)
+435 http cache @typescript-eslint/scope-manager@https://registry.npmjs.org/@typescript-eslint/scope-manager/-/scope-manager-8.50.0.tgz 0ms (cache hit)
+436 http cache @typescript-eslint/project-service@https://registry.npmjs.org/@typescript-eslint/project-service/-/project-service-8.50.0.tgz 0ms (cache hit)
+437 http cache @types/react-dom@https://registry.npmjs.org/@types/react-dom/-/react-dom-19.2.3.tgz 0ms (cache hit)
+438 http cache @types/react@https://registry.npmjs.org/@types/react/-/react-19.2.7.tgz 0ms (cache hit)
+439 http cache @types/node@https://registry.npmjs.org/@types/node/-/node-20.19.27.tgz 0ms (cache hit)
+440 http cache @types/json5@https://registry.npmjs.org/@types/json5/-/json5-0.0.29.tgz 0ms (cache hit)
+441 http cache @typescript-eslint/eslint-plugin@https://registry.npmjs.org/@typescript-eslint/eslint-plugin/-/eslint-plugin-8.50.0.tgz 0ms (cache hit)
+442 http cache @types/json-schema@https://registry.npmjs.org/@types/json-schema/-/json-schema-7.0.15.tgz 0ms (cache hit)
+443 http cache @types/estree@https://registry.npmjs.org/@types/estree/-/estree-1.0.8.tgz 0ms (cache hit)
+444 http cache @typescript-eslint/parser@https://registry.npmjs.org/@typescript-eslint/parser/-/parser-8.50.0.tgz 0ms (cache hit)
+445 http cache @tybys/wasm-util@https://registry.npmjs.org/@tybys/wasm-util/-/wasm-util-0.10.1.tgz 0ms (cache hit)
+446 http cache @tailwindcss/oxide-darwin-arm64@https://registry.npmjs.org/@tailwindcss/oxide-darwin-arm64/-/oxide-darwin-arm64-4.1.18.tgz 0ms (cache hit)
+447 http cache @tailwindcss/postcss@https://registry.npmjs.org/@tailwindcss/postcss/-/postcss-4.1.18.tgz 0ms (cache hit)
+448 http cache @tailwindcss/oxide@https://registry.npmjs.org/@tailwindcss/oxide/-/oxide-4.1.18.tgz 0ms (cache hit)
+449 http cache @swc/helpers@https://registry.npmjs.org/@swc/helpers/-/helpers-0.5.15.tgz 0ms (cache hit)
+450 http cache @tailwindcss/node@https://registry.npmjs.org/@tailwindcss/node/-/node-4.1.18.tgz 0ms (cache hit)
+451 http cache @standard-schema/spec@https://registry.npmjs.org/@standard-schema/spec/-/spec-1.1.0.tgz 0ms (cache hit)
+452 http cache @opentelemetry/api@https://registry.npmjs.org/@opentelemetry/api/-/api-1.9.0.tgz 0ms (cache hit)
+453 http cache @rtsao/scc@https://registry.npmjs.org/@rtsao/scc/-/scc-1.1.0.tgz 0ms (cache hit)
+454 http cache @nolyfill/is-core-module@https://registry.npmjs.org/@nolyfill/is-core-module/-/is-core-module-1.0.39.tgz 0ms (cache hit)
+455 http cache @nodelib/fs.stat@https://registry.npmjs.org/@nodelib/fs.stat/-/fs.stat-2.0.5.tgz 0ms (cache hit)
+456 http cache @nodelib/fs.scandir@https://registry.npmjs.org/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz 0ms (cache hit)
+457 http cache @nodelib/fs.walk@https://registry.npmjs.org/@nodelib/fs.walk/-/fs.walk-1.2.8.tgz 0ms (cache hit)
+458 http cache @typescript-eslint/tsconfig-utils@https://registry.npmjs.org/@typescript-eslint/tsconfig-utils/-/tsconfig-utils-8.50.0.tgz 0ms (cache hit)
+459 http cache @next/swc-darwin-arm64@https://registry.npmjs.org/@next/swc-darwin-arm64/-/swc-darwin-arm64-16.1.0.tgz 0ms (cache hit)
+460 http cache @next/env@https://registry.npmjs.org/@next/env/-/env-16.1.0.tgz 0ms (cache hit)
+461 http cache @napi-rs/wasm-runtime@https://registry.npmjs.org/@napi-rs/wasm-runtime/-/wasm-runtime-0.2.12.tgz 0ms (cache hit)
+462 http cache @next/eslint-plugin-next@https://registry.npmjs.org/@next/eslint-plugin-next/-/eslint-plugin-next-16.1.0.tgz 0ms (cache hit)
+463 http cache @jridgewell/trace-mapping@https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.31.tgz 0ms (cache hit)
+464 http cache @jridgewell/sourcemap-codec@https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.5.5.tgz 0ms (cache hit)
+465 http cache @jridgewell/gen-mapping@https://registry.npmjs.org/@jridgewell/gen-mapping/-/gen-mapping-0.3.13.tgz 0ms (cache hit)
+466 http cache @jridgewell/resolve-uri@https://registry.npmjs.org/@jridgewell/resolve-uri/-/resolve-uri-3.1.2.tgz 0ms (cache hit)
+467 http cache @img/sharp-darwin-arm64@https://registry.npmjs.org/@img/sharp-darwin-arm64/-/sharp-darwin-arm64-0.34.5.tgz 0ms (cache hit)
+468 http cache @img/sharp-libvips-darwin-arm64@https://registry.npmjs.org/@img/sharp-libvips-darwin-arm64/-/sharp-libvips-darwin-arm64-1.2.4.tgz 0ms (cache hit)
+469 http cache @img/colour@https://registry.npmjs.org/@img/colour/-/colour-1.0.0.tgz 0ms (cache hit)
+470 http cache @humanwhocodes/module-importer@https://registry.npmjs.org/@humanwhocodes/module-importer/-/module-importer-1.0.1.tgz 0ms (cache hit)
+471 http cache @humanfs/node@https://registry.npmjs.org/@humanfs/node/-/node-0.16.7.tgz 0ms (cache hit)
+472 http cache @humanfs/core@https://registry.npmjs.org/@humanfs/core/-/core-0.19.1.tgz 0ms (cache hit)
+473 http cache @eslint/plugin-kit@https://registry.npmjs.org/@eslint/plugin-kit/-/plugin-kit-0.4.1.tgz 0ms (cache hit)
+474 http cache @eslint/object-schema@https://registry.npmjs.org/@eslint/object-schema/-/object-schema-2.1.7.tgz 0ms (cache hit)
+475 http cache @eslint/js@https://registry.npmjs.org/@eslint/js/-/js-9.39.2.tgz 0ms (cache hit)
+476 http cache @eslint/eslintrc@https://registry.npmjs.org/@eslint/eslintrc/-/eslintrc-3.3.3.tgz 0ms (cache hit)
+477 http cache @eslint/core@https://registry.npmjs.org/@eslint/core/-/core-0.17.0.tgz 0ms (cache hit)
+478 http cache @humanwhocodes/retry@https://registry.npmjs.org/@humanwhocodes/retry/-/retry-0.4.3.tgz 0ms (cache hit)
+479 http cache @eslint/config-helpers@https://registry.npmjs.org/@eslint/config-helpers/-/config-helpers-0.4.2.tgz 0ms (cache hit)
+480 http cache @jridgewell/remapping@https://registry.npmjs.org/@jridgewell/remapping/-/remapping-2.3.5.tgz 0ms (cache hit)
+481 http cache @eslint-community/regexpp@https://registry.npmjs.org/@eslint-community/regexpp/-/regexpp-4.12.2.tgz 0ms (cache hit)
+482 http cache @emnapi/wasi-threads@https://registry.npmjs.org/@emnapi/wasi-threads/-/wasi-threads-1.1.0.tgz 0ms (cache hit)
+483 http cache @eslint-community/eslint-utils@https://registry.npmjs.org/@eslint-community/eslint-utils/-/eslint-utils-4.9.0.tgz 0ms (cache hit)
+484 http cache @emnapi/core@https://registry.npmjs.org/@emnapi/core/-/core-1.7.1.tgz 0ms (cache hit)
+485 http cache @eslint/config-array@https://registry.npmjs.org/@eslint/config-array/-/config-array-0.21.1.tgz 0ms (cache hit)
+486 http cache @babel/traverse@https://registry.npmjs.org/@babel/traverse/-/traverse-7.28.5.tgz 0ms (cache hit)
+487 http cache @emnapi/runtime@https://registry.npmjs.org/@emnapi/runtime/-/runtime-1.7.1.tgz 0ms (cache hit)
+488 http cache @babel/template@https://registry.npmjs.org/@babel/template/-/template-7.27.2.tgz 0ms (cache hit)
+489 http cache @babel/types@https://registry.npmjs.org/@babel/types/-/types-7.28.5.tgz 0ms (cache hit)
+490 http cache @babel/parser@https://registry.npmjs.org/@babel/parser/-/parser-7.28.5.tgz 0ms (cache hit)
+491 http cache @babel/helpers@https://registry.npmjs.org/@babel/helpers/-/helpers-7.28.4.tgz 0ms (cache hit)
+492 http cache @babel/helper-string-parser@https://registry.npmjs.org/@babel/helper-string-parser/-/helper-string-parser-7.27.1.tgz 0ms (cache hit)
+493 http cache @babel/helper-validator-option@https://registry.npmjs.org/@babel/helper-validator-option/-/helper-validator-option-7.27.1.tgz 0ms (cache hit)
+494 http cache @babel/helper-validator-identifier@https://registry.npmjs.org/@babel/helper-validator-identifier/-/helper-validator-identifier-7.28.5.tgz 0ms (cache hit)
+495 http cache @babel/helper-module-transforms@https://registry.npmjs.org/@babel/helper-module-transforms/-/helper-module-transforms-7.28.3.tgz 0ms (cache hit)
+496 http cache @babel/helper-module-imports@https://registry.npmjs.org/@babel/helper-module-imports/-/helper-module-imports-7.27.1.tgz 0ms (cache hit)
+497 http cache @babel/helper-globals@https://registry.npmjs.org/@babel/helper-globals/-/helper-globals-7.28.0.tgz 0ms (cache hit)
+498 http cache @babel/helper-compilation-targets@https://registry.npmjs.org/@babel/helper-compilation-targets/-/helper-compilation-targets-7.27.2.tgz 0ms (cache hit)
+499 http cache @babel/generator@https://registry.npmjs.org/@babel/generator/-/generator-7.28.5.tgz 0ms (cache hit)
+500 http cache @babel/compat-data@https://registry.npmjs.org/@babel/compat-data/-/compat-data-7.28.5.tgz 0ms (cache hit)
+501 http cache @babel/code-frame@https://registry.npmjs.org/@babel/code-frame/-/code-frame-7.27.1.tgz 0ms (cache hit)
+502 http cache @ai-sdk/provider-utils@https://registry.npmjs.org/@ai-sdk/provider-utils/-/provider-utils-3.0.19.tgz 0ms (cache hit)
+503 http cache @babel/core@https://registry.npmjs.org/@babel/core/-/core-7.28.5.tgz 0ms (cache hit)
+504 http cache @alloc/quick-lru@https://registry.npmjs.org/@alloc/quick-lru/-/quick-lru-5.2.0.tgz 0ms (cache hit)
+505 http cache @ai-sdk/provider@https://registry.npmjs.org/@ai-sdk/provider/-/provider-2.0.0.tgz 0ms (cache hit)
+506 http cache @ai-sdk/gateway@https://registry.npmjs.org/@ai-sdk/gateway/-/gateway-2.0.23.tgz 0ms (cache hit)
+507 http cache @ai-sdk/google@https://registry.npmjs.org/@ai-sdk/google/-/google-2.0.51.tgz 0ms (cache hit)
+508 http cache fdir@https://registry.npmjs.org/fdir/-/fdir-6.5.0.tgz 0ms (cache hit)
+509 http cache picomatch@https://registry.npmjs.org/picomatch/-/picomatch-4.0.3.tgz 0ms (cache hit)
+510 http cache postcss@https://registry.npmjs.org/postcss/-/postcss-8.4.31.tgz 0ms (cache hit)
+511 http cache json5@https://registry.npmjs.org/json5/-/json5-1.0.2.tgz 0ms (cache hit)
+512 http cache glob-parent@https://registry.npmjs.org/glob-parent/-/glob-parent-5.1.2.tgz 0ms (cache hit)
+513 http cache semver@https://registry.npmjs.org/semver/-/semver-7.7.3.tgz 0ms (cache hit)
+514 http cache semver@https://registry.npmjs.org/semver/-/semver-7.7.3.tgz 0ms (cache hit)
+515 http cache resolve@https://registry.npmjs.org/resolve/-/resolve-2.0.0-next.5.tgz 0ms (cache hit)
+516 http cache debug@https://registry.npmjs.org/debug/-/debug-3.2.7.tgz 0ms (cache hit)
+517 http cache debug@https://registry.npmjs.org/debug/-/debug-3.2.7.tgz 0ms (cache hit)
+518 http cache debug@https://registry.npmjs.org/debug/-/debug-3.2.7.tgz 0ms (cache hit)
+519 http cache semver@https://registry.npmjs.org/semver/-/semver-7.7.3.tgz 0ms (cache hit)
+520 http cache globals@https://registry.npmjs.org/globals/-/globals-16.4.0.tgz 0ms (cache hit)
+521 http cache brace-expansion@https://registry.npmjs.org/brace-expansion/-/brace-expansion-2.0.2.tgz 0ms (cache hit)
+522 http cache ignore@https://registry.npmjs.org/ignore/-/ignore-7.0.5.tgz 0ms (cache hit)
+523 http cache eslint-visitor-keys@https://registry.npmjs.org/eslint-visitor-keys/-/eslint-visitor-keys-3.4.3.tgz 0ms (cache hit)
+524 http cache minimatch@https://registry.npmjs.org/minimatch/-/minimatch-9.0.5.tgz 0ms (cache hit)
+525 silly tarball no local data for tailwind-merge@https://registry.npmjs.org/tailwind-merge/-/tailwind-merge-3.4.0.tgz. Extracting by manifest.
+526 silly tarball no local data for motion-dom@https://registry.npmjs.org/motion-dom/-/motion-dom-12.23.23.tgz. Extracting by manifest.
+527 silly tarball no local data for lucide-react@https://registry.npmjs.org/lucide-react/-/lucide-react-0.562.0.tgz. Extracting by manifest.
+528 silly tarball no local data for motion-utils@https://registry.npmjs.org/motion-utils/-/motion-utils-12.23.6.tgz. Extracting by manifest.
+529 silly tarball no local data for json-schema@https://registry.npmjs.org/json-schema/-/json-schema-0.4.0.tgz. Extracting by manifest.
+530 silly tarball no local data for framer-motion@https://registry.npmjs.org/framer-motion/-/framer-motion-12.23.26.tgz. Extracting by manifest.
+531 silly tarball no local data for eventsource-parser@https://registry.npmjs.org/eventsource-parser/-/eventsource-parser-3.0.6.tgz. Extracting by manifest.
+532 silly tarball no local data for clsx@https://registry.npmjs.org/clsx/-/clsx-2.1.1.tgz. Extracting by manifest.
+533 silly tarball no local data for ai@https://registry.npmjs.org/ai/-/ai-5.0.116.tgz. Extracting by manifest.
+534 silly tarball no local data for @vercel/oidc@https://registry.npmjs.org/@vercel/oidc/-/oidc-3.0.5.tgz. Extracting by manifest.
+535 silly tarball no local data for @opentelemetry/api@https://registry.npmjs.org/@opentelemetry/api/-/api-1.9.0.tgz. Extracting by manifest.
+536 silly tarball no local data for @standard-schema/spec@https://registry.npmjs.org/@standard-schema/spec/-/spec-1.1.0.tgz. Extracting by manifest.
+537 silly tarball no local data for @ai-sdk/provider-utils@https://registry.npmjs.org/@ai-sdk/provider-utils/-/provider-utils-3.0.19.tgz. Extracting by manifest.
+538 silly tarball no local data for @ai-sdk/gateway@https://registry.npmjs.org/@ai-sdk/gateway/-/gateway-2.0.23.tgz. Extracting by manifest.
+539 silly tarball no local data for @ai-sdk/google@https://registry.npmjs.org/@ai-sdk/google/-/google-2.0.51.tgz. Extracting by manifest.
+540 silly tarball no local data for @ai-sdk/provider@https://registry.npmjs.org/@ai-sdk/provider/-/provider-2.0.0.tgz. Extracting by manifest.
+541 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 2073ms
+542 silly audit report {}
+543 http fetch GET 200 https://registry.npmjs.org/clsx/-/clsx-2.1.1.tgz 2336ms (cache miss)
+544 http fetch GET 200 https://registry.npmjs.org/json-schema/-/json-schema-0.4.0.tgz 2390ms (cache miss)
+545 http fetch GET 200 https://registry.npmjs.org/@standard-schema/spec/-/spec-1.1.0.tgz 2402ms (cache miss)
+546 http fetch GET 200 https://registry.npmjs.org/eventsource-parser/-/eventsource-parser-3.0.6.tgz 2482ms (cache miss)
+547 http fetch GET 200 https://registry.npmjs.org/@vercel/oidc/-/oidc-3.0.5.tgz 2531ms (cache miss)
+548 http fetch GET 200 https://registry.npmjs.org/motion-utils/-/motion-utils-12.23.6.tgz 2544ms (cache miss)
+549 http fetch GET 200 https://registry.npmjs.org/@ai-sdk/provider/-/provider-2.0.0.tgz 2547ms (cache miss)
+550 http fetch GET 200 https://registry.npmjs.org/@ai-sdk/google/-/google-2.0.51.tgz 2697ms (cache miss)
+551 http fetch GET 200 https://registry.npmjs.org/@ai-sdk/gateway/-/gateway-2.0.23.tgz 2701ms (cache miss)
+552 http fetch GET 200 https://registry.npmjs.org/tailwind-merge/-/tailwind-merge-3.4.0.tgz 2735ms (cache miss)
+553 http fetch GET 200 https://registry.npmjs.org/@ai-sdk/provider-utils/-/provider-utils-3.0.19.tgz 2839ms (cache miss)
+554 http fetch GET 200 https://registry.npmjs.org/ai/-/ai-5.0.116.tgz 2874ms (cache miss)
+555 http fetch GET 200 https://registry.npmjs.org/motion-dom/-/motion-dom-12.23.23.tgz 3081ms (cache miss)
+556 http fetch GET 200 https://registry.npmjs.org/framer-motion/-/framer-motion-12.23.26.tgz 3356ms (cache miss)
+557 http fetch GET 200 https://registry.npmjs.org/@opentelemetry/api/-/api-1.9.0.tgz 3603ms (cache miss)
+558 http fetch GET 200 https://registry.npmjs.org/lucide-react/-/lucide-react-0.562.0.tgz 5126ms (cache miss)
+559 info run sharp@0.34.5 install node_modules/sharp node install/check.js || npm run build
+560 info run sharp@0.34.5 install { code: 0, signal: null }
+561 info run unrs-resolver@1.11.1 postinstall node_modules/unrs-resolver napi-postinstall unrs-resolver 1.11.1 check
+562 info run unrs-resolver@1.11.1 postinstall { code: 0, signal: null }
+563 silly ADD node_modules/zod-validation-error
+564 silly ADD node_modules/zod
+565 silly ADD node_modules/yocto-queue
+566 silly ADD node_modules/yallist
+567 silly ADD node_modules/word-wrap
+568 silly ADD node_modules/which-typed-array
+569 silly ADD node_modules/which-collection
+570 silly ADD node_modules/which-builtin-type
+571 silly ADD node_modules/which-boxed-primitive
+572 silly ADD node_modules/which
+573 silly ADD node_modules/uri-js
+574 silly ADD node_modules/update-browserslist-db
+575 silly ADD node_modules/unrs-resolver
+576 silly ADD node_modules/undici-types
+577 silly ADD node_modules/unbox-primitive
+578 silly ADD node_modules/typescript-eslint
+579 silly ADD node_modules/typescript
+580 silly ADD node_modules/typed-array-length
+581 silly ADD node_modules/typed-array-byte-offset
+582 silly ADD node_modules/typed-array-byte-length
+583 silly ADD node_modules/typed-array-buffer
+584 silly ADD node_modules/type-check
+585 silly ADD node_modules/tslib
+586 silly ADD node_modules/tsconfig-paths
+587 silly ADD node_modules/tsconfig-paths/node_modules/json5
+588 silly ADD node_modules/ts-api-utils
+589 silly ADD node_modules/to-regex-range
+590 silly ADD node_modules/tinyglobby
+591 silly ADD node_modules/tinyglobby/node_modules/picomatch
+592 silly ADD node_modules/tinyglobby/node_modules/fdir
+593 silly ADD node_modules/tapable
+594 silly ADD node_modules/tailwindcss
+595 silly ADD node_modules/tailwind-merge
+596 silly ADD node_modules/supports-preserve-symlinks-flag
+597 silly ADD node_modules/supports-color
+598 silly ADD node_modules/styled-jsx
+599 silly ADD node_modules/strip-json-comments
+600 silly ADD node_modules/strip-bom
+601 silly ADD node_modules/string.prototype.trimstart
+602 silly ADD node_modules/string.prototype.trimend
+603 silly ADD node_modules/string.prototype.trim
+604 silly ADD node_modules/string.prototype.repeat
+605 silly ADD node_modules/string.prototype.matchall
+606 silly ADD node_modules/string.prototype.includes
+607 silly ADD node_modules/stop-iteration-iterator
+608 silly ADD node_modules/stable-hash
+609 silly ADD node_modules/source-map-js
+610 silly ADD node_modules/side-channel-weakmap
+611 silly ADD node_modules/side-channel-map
+612 silly ADD node_modules/side-channel-list
+613 silly ADD node_modules/side-channel
+614 silly ADD node_modules/shebang-regex
+615 silly ADD node_modules/shebang-command
+616 silly ADD node_modules/sharp
+617 silly ADD node_modules/sharp/node_modules/semver
+618 silly ADD node_modules/set-proto
+619 silly ADD node_modules/set-function-name
+620 silly ADD node_modules/set-function-length
+621 silly ADD node_modules/semver
+622 silly ADD node_modules/scheduler
+623 silly ADD node_modules/safe-regex-test
+624 silly ADD node_modules/safe-push-apply
+625 silly ADD node_modules/safe-array-concat
+626 silly ADD node_modules/run-parallel
+627 silly ADD node_modules/reusify
+628 silly ADD node_modules/resolve-pkg-maps
+629 silly ADD node_modules/resolve-from
+630 silly ADD node_modules/resolve
+631 silly ADD node_modules/regexp.prototype.flags
+632 silly ADD node_modules/reflect.getprototypeof
+633 silly ADD node_modules/react-is
+634 silly ADD node_modules/react-dom
+635 silly ADD node_modules/react
+636 silly ADD node_modules/queue-microtask
+637 silly ADD node_modules/punycode
+638 silly ADD node_modules/prop-types
+639 silly ADD node_modules/prelude-ls
+640 silly ADD node_modules/postcss
+641 silly ADD node_modules/possible-typed-array-names
+642 silly ADD node_modules/picomatch
+643 silly ADD node_modules/picocolors
+644 silly ADD node_modules/path-parse
+645 silly ADD node_modules/path-key
+646 silly ADD node_modules/path-exists
+647 silly ADD node_modules/parent-module
+648 silly ADD node_modules/p-locate
+649 silly ADD node_modules/p-limit
+650 silly ADD node_modules/own-keys
+651 silly ADD node_modules/optionator
+652 silly ADD node_modules/object.values
+653 silly ADD node_modules/object.groupby
+654 silly ADD node_modules/object.fromentries
+655 silly ADD node_modules/object.entries
+656 silly ADD node_modules/object.assign
+657 silly ADD node_modules/object-keys
+658 silly ADD node_modules/object-inspect
+659 silly ADD node_modules/object-assign
+660 silly ADD node_modules/node-releases
+661 silly ADD node_modules/next
+662 silly ADD node_modules/next/node_modules/postcss
+663 silly ADD node_modules/natural-compare
+664 silly ADD node_modules/napi-postinstall
+665 silly ADD node_modules/nanoid
+666 silly ADD node_modules/ms
+667 silly ADD node_modules/motion-utils
+668 silly ADD node_modules/motion-dom
+669 silly ADD node_modules/minimist
+670 silly ADD node_modules/minimatch
+671 silly ADD node_modules/micromatch
+672 silly ADD node_modules/merge2
+673 silly ADD node_modules/math-intrinsics
+674 silly ADD node_modules/magic-string
+675 silly ADD node_modules/lucide-react
+676 silly ADD node_modules/lru-cache
+677 silly ADD node_modules/loose-envify
+678 silly ADD node_modules/lodash.merge
+679 silly ADD node_modules/locate-path
+680 silly ADD
+681 silly ADD
+682 silly ADD
+683 silly ADD
+684 silly ADD
+685 silly ADD
+686 silly ADD
+687 silly ADD
+688 silly ADD
+689 silly ADD node_modules/lightningcss-darwin-arm64
+690 silly ADD
+691 silly ADD node_modules/lightningcss
+692 silly ADD node_modules/levn
+693 silly ADD node_modules/language-tags
+694 silly ADD node_modules/language-subtag-registry
+695 silly ADD node_modules/keyv
+696 silly ADD node_modules/jsx-ast-utils
+697 silly ADD node_modules/json5
+698 silly ADD node_modules/json-stable-stringify-without-jsonify
+699 silly ADD node_modules/json-schema-traverse
+700 silly ADD node_modules/json-schema
+701 silly ADD node_modules/json-buffer
+702 silly ADD node_modules/jsesc
+703 silly ADD node_modules/js-yaml
+704 silly ADD node_modules/js-tokens
+705 silly ADD node_modules/jiti
+706 silly ADD node_modules/iterator.prototype
+707 silly ADD node_modules/isexe
+708 silly ADD node_modules/isarray
+709 silly ADD node_modules/is-weakset
+710 silly ADD node_modules/is-weakref
+711 silly ADD node_modules/is-weakmap
+712 silly ADD node_modules/is-typed-array
+713 silly ADD node_modules/is-symbol
+714 silly ADD node_modules/is-string
+715 silly ADD node_modules/is-shared-array-buffer
+716 silly ADD node_modules/is-set
+717 silly ADD node_modules/is-regex
+718 silly ADD node_modules/is-number-object
+719 silly ADD node_modules/is-number
+720 silly ADD node_modules/is-negative-zero
+721 silly ADD node_modules/is-map
+722 silly ADD node_modules/is-glob
+723 silly ADD node_modules/is-generator-function
+724 silly ADD node_modules/is-finalizationregistry
+725 silly ADD node_modules/is-extglob
+726 silly ADD node_modules/is-date-object
+727 silly ADD node_modules/is-data-view
+728 silly ADD node_modules/is-core-module
+729 silly ADD node_modules/is-callable
+730 silly ADD node_modules/is-bun-module
+731 silly ADD node_modules/is-bun-module/node_modules/semver
+732 silly ADD node_modules/is-boolean-object
+733 silly ADD node_modules/is-bigint
+734 silly ADD node_modules/is-async-function
+735 silly ADD node_modules/is-array-buffer
+736 silly ADD node_modules/internal-slot
+737 silly ADD node_modules/imurmurhash
+738 silly ADD node_modules/import-fresh
+739 silly ADD node_modules/ignore
+740 silly ADD node_modules/hermes-parser
+741 silly ADD node_modules/hermes-estree
+742 silly ADD node_modules/hasown
+743 silly ADD node_modules/has-tostringtag
+744 silly ADD node_modules/has-symbols
+745 silly ADD node_modules/has-proto
+746 silly ADD node_modules/has-property-descriptors
+747 silly ADD node_modules/has-flag
+748 silly ADD node_modules/has-bigints
+749 silly ADD node_modules/graceful-fs
+750 silly ADD node_modules/gopd
+751 silly ADD node_modules/globalthis
+752 silly ADD node_modules/globals
+753 silly ADD node_modules/glob-parent
+754 silly ADD node_modules/get-tsconfig
+755 silly ADD node_modules/get-symbol-description
+756 silly ADD node_modules/get-proto
+757 silly ADD node_modules/get-intrinsic
+758 silly ADD node_modules/gensync
+759 silly ADD node_modules/generator-function
+760 silly ADD node_modules/functions-have-names
+761 silly ADD node_modules/function.prototype.name
+762 silly ADD node_modules/function-bind
+763 silly ADD node_modules/framer-motion
+764 silly ADD node_modules/for-each
+765 silly ADD node_modules/flatted
+766 silly ADD node_modules/flat-cache
+767 silly ADD node_modules/find-up
+768 silly ADD node_modules/fill-range
+769 silly ADD node_modules/file-entry-cache
+770 silly ADD node_modules/fastq
+771 silly ADD node_modules/fast-levenshtein
+772 silly ADD node_modules/fast-json-stable-stringify
+773 silly ADD node_modules/fast-glob
+774 silly ADD node_modules/fast-glob/node_modules/glob-parent
+775 silly ADD node_modules/fast-deep-equal
+776 silly ADD node_modules/eventsource-parser
+777 silly ADD node_modules/esutils
+778 silly ADD node_modules/estraverse
+779 silly ADD node_modules/esrecurse
+780 silly ADD node_modules/esquery
+781 silly ADD node_modules/espree
+782 silly ADD node_modules/eslint-visitor-keys
+783 silly ADD node_modules/eslint-scope
+784 silly ADD node_modules/eslint-plugin-react-hooks
+785 silly ADD node_modules/eslint-plugin-react
+786 silly ADD node_modules/eslint-plugin-react/node_modules/resolve
+787 silly ADD node_modules/eslint-plugin-jsx-a11y
+788 silly ADD node_modules/eslint-plugin-import
+789 silly ADD node_modules/eslint-plugin-import/node_modules/debug
+790 silly ADD node_modules/eslint-module-utils
+791 silly ADD node_modules/eslint-module-utils/node_modules/debug
+792 silly ADD node_modules/eslint-import-resolver-typescript
+793 silly ADD node_modules/eslint-import-resolver-node
+794 silly ADD node_modules/eslint-import-resolver-node/node_modules/debug
+795 silly ADD node_modules/eslint-config-next
+796 silly ADD node_modules/eslint-config-next/node_modules/globals
+797 silly ADD node_modules/eslint
+798 silly ADD node_modules/escape-string-regexp
+799 silly ADD node_modules/escalade
+800 silly ADD node_modules/es-to-primitive
+801 silly ADD node_modules/es-shim-unscopables
+802 silly ADD node_modules/es-set-tostringtag
+803 silly ADD node_modules/es-object-atoms
+804 silly ADD node_modules/es-iterator-helpers
+805 silly ADD node_modules/es-errors
+806 silly ADD node_modules/es-define-property
+807 silly ADD node_modules/es-abstract
+808 silly ADD node_modules/enhanced-resolve
+809 silly ADD node_modules/emoji-regex
+810 silly ADD node_modules/electron-to-chromium
+811 silly ADD node_modules/dunder-proto
+812 silly ADD node_modules/doctrine
+813 silly ADD node_modules/detect-libc
+814 silly ADD node_modules/define-properties
+815 silly ADD node_modules/define-data-property
+816 silly ADD node_modules/deep-is
+817 silly ADD node_modules/debug
+818 silly ADD node_modules/data-view-byte-offset
+819 silly ADD node_modules/data-view-byte-length
+820 silly ADD node_modules/data-view-buffer
+821 silly ADD node_modules/damerau-levenshtein
+822 silly ADD node_modules/csstype
+823 silly ADD node_modules/cross-spawn
+824 silly ADD node_modules/convert-source-map
+825 silly ADD node_modules/concat-map
+826 silly ADD node_modules/color-name
+827 silly ADD node_modules/color-convert
+828 silly ADD node_modules/clsx
+829 silly ADD node_modules/client-only
+830 silly ADD node_modules/chalk
+831 silly ADD node_modules/caniuse-lite
+832 silly ADD node_modules/callsites
+833 silly ADD node_modules/call-bound
+834 silly ADD node_modules/call-bind-apply-helpers
+835 silly ADD node_modules/call-bind
+836 silly ADD node_modules/browserslist
+837 silly ADD node_modules/braces
+838 silly ADD node_modules/brace-expansion
+839 silly ADD node_modules/baseline-browser-mapping
+840 silly ADD node_modules/balanced-match
+841 silly ADD node_modules/axobject-query
+842 silly ADD node_modules/axe-core
+843 silly ADD node_modules/available-typed-arrays
+844 silly ADD node_modules/async-function
+845 silly ADD node_modules/ast-types-flow
+846 silly ADD node_modules/arraybuffer.prototype.slice
+847 silly ADD node_modules/array.prototype.tosorted
+848 silly ADD node_modules/array.prototype.flatmap
+849 silly ADD node_modules/array.prototype.flat
+850 silly ADD node_modules/array.prototype.findlastindex
+851 silly ADD node_modules/array.prototype.findlast
+852 silly ADD node_modules/array-includes
+853 silly ADD node_modules/array-buffer-byte-length
+854 silly ADD node_modules/aria-query
+855 silly ADD node_modules/argparse
+856 silly ADD node_modules/ansi-styles
+857 silly ADD node_modules/ajv
+858 silly ADD node_modules/ai
+859 silly ADD node_modules/acorn-jsx
+860 silly ADD node_modules/acorn
+861 silly ADD node_modules/@vercel/oidc
+862 silly ADD
+863 silly ADD
+864 silly ADD
+865 silly ADD
+866 silly ADD
+867 silly ADD
+868 silly ADD
+869 silly ADD
+870 silly ADD
+871 silly ADD
+872 silly ADD
+873 silly ADD
+874 silly ADD
+875 silly ADD
+876 silly ADD
+877 silly ADD
+878 silly ADD node_modules/@unrs/resolver-binding-darwin-arm64
+879 silly ADD
+880 silly ADD
+881 silly ADD node_modules/@typescript-eslint/visitor-keys
+882 silly ADD node_modules/@typescript-eslint/utils
+883 silly ADD node_modules/@typescript-eslint/typescript-estree
+884 silly ADD node_modules/@typescript-eslint/typescript-estree/node_modules/semver
+885 silly ADD node_modules/@typescript-eslint/typescript-estree/node_modules/minimatch
+886 silly ADD node_modules/@typescript-eslint/typescript-estree/node_modules/brace-expansion
+887 silly ADD node_modules/@typescript-eslint/types
+888 silly ADD node_modules/@typescript-eslint/type-utils
+889 silly ADD node_modules/@typescript-eslint/tsconfig-utils
+890 silly ADD node_modules/@typescript-eslint/scope-manager
+891 silly ADD node_modules/@typescript-eslint/project-service
+892 silly ADD node_modules/@typescript-eslint/parser
+893 silly ADD node_modules/@typescript-eslint/eslint-plugin
+894 silly ADD node_modules/@typescript-eslint/eslint-plugin/node_modules/ignore
+895 silly ADD node_modules/@types/react-dom
+896 silly ADD node_modules/@types/react
+897 silly ADD node_modules/@types/node
+898 silly ADD node_modules/@types/json5
+899 silly ADD node_modules/@types/json-schema
+900 silly ADD node_modules/@types/estree
+901 silly ADD node_modules/@tybys/wasm-util
+902 silly ADD node_modules/@tailwindcss/postcss
+903 silly ADD
+904 silly ADD
+905 silly ADD
+906 silly ADD
+907 silly ADD
+908 silly ADD
+909 silly ADD
+910 silly ADD
+911 silly ADD
+912 silly ADD
+913 silly ADD node_modules/@tailwindcss/oxide-darwin-arm64
+914 silly ADD
+915 silly ADD node_modules/@tailwindcss/oxide
+916 silly ADD node_modules/@tailwindcss/node
+917 silly ADD node_modules/@swc/helpers
+918 silly ADD node_modules/@standard-schema/spec
+919 silly ADD node_modules/@rtsao/scc
+920 silly ADD node_modules/@opentelemetry/api
+921 silly ADD node_modules/@nolyfill/is-core-module
+922 silly ADD node_modules/@nodelib/fs.walk
+923 silly ADD node_modules/@nodelib/fs.stat
+924 silly ADD node_modules/@nodelib/fs.scandir
+925 silly ADD
+926 silly ADD
+927 silly ADD
+928 silly ADD
+929 silly ADD
+930 silly ADD
+931 silly ADD
+932 silly ADD node_modules/@next/swc-darwin-arm64
+933 silly ADD node_modules/@next/eslint-plugin-next
+934 silly ADD node_modules/@next/env
+935 silly ADD node_modules/@napi-rs/wasm-runtime
+936 silly ADD node_modules/@jridgewell/trace-mapping
+937 silly ADD node_modules/@jridgewell/sourcemap-codec
+938 silly ADD node_modules/@jridgewell/resolve-uri
+939 silly ADD node_modules/@jridgewell/remapping
+940 silly ADD node_modules/@jridgewell/gen-mapping
+941 silly ADD
+942 silly ADD
+943 silly ADD
+944 silly ADD
+945 silly ADD
+946 silly ADD
+947 silly ADD
+948 silly ADD
+949 silly ADD
+950 silly ADD
+951 silly ADD
+952 silly ADD
+953 silly ADD
+954 silly ADD
+955 silly ADD
+956 silly ADD
+957 silly ADD
+958 silly ADD
+959 silly ADD
+960 silly ADD
+961 silly ADD
+962 silly ADD node_modules/@img/sharp-libvips-darwin-arm64
+963 silly ADD
+964 silly ADD node_modules/@img/sharp-darwin-arm64
+965 silly ADD node_modules/@img/colour
+966 silly ADD node_modules/@humanwhocodes/retry
+967 silly ADD node_modules/@humanwhocodes/module-importer
+968 silly ADD node_modules/@humanfs/node
+969 silly ADD node_modules/@humanfs/core
+970 silly ADD node_modules/@eslint/plugin-kit
+971 silly ADD node_modules/@eslint/object-schema
+972 silly ADD node_modules/@eslint/js
+973 silly ADD node_modules/@eslint/eslintrc
+974 silly ADD node_modules/@eslint/core
+975 silly ADD node_modules/@eslint/config-helpers
+976 silly ADD node_modules/@eslint/config-array
+977 silly ADD node_modules/@eslint-community/regexpp
+978 silly ADD node_modules/@eslint-community/eslint-utils
+979 silly ADD node_modules/@eslint-community/eslint-utils/node_modules/eslint-visitor-keys
+980 silly ADD node_modules/@emnapi/wasi-threads
+981 silly ADD node_modules/@emnapi/runtime
+982 silly ADD node_modules/@emnapi/core
+983 silly ADD node_modules/@babel/types
+984 silly ADD node_modules/@babel/traverse
+985 silly ADD node_modules/@babel/template
+986 silly ADD node_modules/@babel/parser
+987 silly ADD node_modules/@babel/helpers
+988 silly ADD node_modules/@babel/helper-validator-option
+989 silly ADD node_modules/@babel/helper-validator-identifier
+990 silly ADD node_modules/@babel/helper-string-parser
+991 silly ADD node_modules/@babel/helper-module-transforms
+992 silly ADD node_modules/@babel/helper-module-imports
+993 silly ADD node_modules/@babel/helper-globals
+994 silly ADD node_modules/@babel/helper-compilation-targets
+995 silly ADD node_modules/@babel/generator
+996 silly ADD node_modules/@babel/core
+997 silly ADD node_modules/@babel/compat-data
+998 silly ADD node_modules/@babel/code-frame
+999 silly ADD node_modules/@alloc/quick-lru
+1000 silly ADD node_modules/@ai-sdk/provider-utils
+1001 silly ADD node_modules/@ai-sdk/provider
+1002 silly ADD node_modules/@ai-sdk/google
+1003 silly ADD node_modules/@ai-sdk/gateway
+1004 verbose cwd /Users/hw24a094/Logos
+1005 verbose os Darwin 24.6.0
+1006 verbose node v22.17.0
+1007 verbose npm  v10.9.2
+1008 verbose exit 0
+1009 info ok
