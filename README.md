@@ -1,48 +1,56 @@
-# 🗣️ Logos (ロゴス)
+# 🗣️ Logos
 
-**Order from Chaos. Structure your Thoughts.**
-
-## 📖 概要 (Overview)
-**Logos** は、脳内の断片的なメモや散らかった思考を、論理的な構造を持った成果物（プレゼンテーションスライド）に変える思考整理AIプロダクトです。
-LLMの推論能力を活用し、単なるテキスト生成ではなく、**「構造化」「視覚化」「共有」** までをワンストップで実現します。
+<p align="center">
+  <b>"Order from Chaos. Structure your Thoughts."</b><br>
+  AI tool that transforms scattered thoughts into structured presentations
+</p>
 
 ![Logos Presentation Mode](https://placehold.co/800x450/indigo/white?text=Logos+Presentation)
 
-## 🚀 主な機能 (Key Features)
+---
+
+[🇯🇵 Japanese (日本語)](README.ja.md)
+
+## 📖 Overview
+
+**Logos** is a thought-organizing AI product that turns fragmented notes and cluttered thoughts in your brain into logical, structured deliverables (presentation slides).
+Leveraging the reasoning capabilities of LLMs, it realizes **"Structuring"**, **"Visualization"**, and **"Sharing"** in one stop, rather than just text generation.
+
+## 🚀 Key Features
 
 ### 1. AI Slide Generation
-チャット形式で思考を投げかけるだけで、AIがプレゼンテーションの構成を提案し、スライドを自動生成します。
+Just throw your thoughts in a chat, and the AI proposes the structure and generates slides automatically.
 - **Core Technology**: Vercel AI SDK (Google Gemini)
-- **Features**: タイトル、メインゴール、各スライドのコンテンツ作成
+- **Features**: Titles, Main Goals, Content creation for each slide.
 
 ### 2. Live Customization
-プレゼンテーションのデザインをリアルタイムにカスタマイズできます。
-- **Theme Customizer**: ブランドカラーや好みに合わせて、独自のカラーパレットを作成・保存可能。
-- **Font Selection**: Google Fontsから雰囲気に合ったフォントを選択可能。
-- **Inline Editing**: スライド上のテキストをクリックするだけで直接編集可能。
+Customize the presentation design in real-time.
+- **Theme Customizer**: Create and save unique color palettes to match brand colors.
+- **Font Selection**: Select fonts from Google Fonts.
+- **Inline Editing**: Edit text directly on the slide.
 
 ### 3. AI Image Generation
-視覚的なインパクトを与える画像を、スライドの内容に基づいてAIが自動生成します。
+Automatically generate impactful images based on slide content.
 - **Technology**: Pollinations.ai (Stable Diffusion)
-- **Workflow**: スライドカード上のボタンをクリックするだけで、文脈に合った画像を生成・挿入。
+- **Workflow**: Click a button to generate and insert context-aware images.
 
 ### 4. Serverless Sharing
-作成したプレゼンテーションを、URLひとつで即座に共有できます。
-- **Mechanism**: `lz-string` を使用してプレゼンデータを圧縮・URLエンコードするため、データベース不要で永続的な共有が可能。
-- **Read-only Mode**: URLを受け取った相手は、ログイン不要でプレゼンを閲覧・再生可能。
+Share created presentations instantly via URL.
+- **Mechanism**: Uses `lz-string` to compress and URL-encode presentation data, allowing persistent sharing without a database.
+- **Read-only Mode**: Recipients can view and play the presentation without login.
 
 ### 5. Export Options
-実務での利用を想定し、汎用的なフォーマットへの書き出しをサポートしています。
-- **PPTX**: PowerPoint形式でダウンロードし、PowerPointやGoogle Slidesで微調整が可能。
-- **PDF**: 配布資料として最適なPDF形式での保存。
+Supports export to common formats for practical use.
+- **PPTX**: Download in PowerPoint format for fine-tuning.
+- **PDF**: Save as PDF for handouts.
 
 ### 6. Templates
-目的別のテンプレートから素早くプレゼン作成を開始できます。
+Start quickly with purpose-built templates.
 - Startup Pitch Deck
 - Quarterly Business Review
 - Educational Lecture etc.
 
-## 🛠 技術スタック (Tech Stack)
+## 🛠 Tech Stack
 
 - **Framework**: [Next.js 14](https://nextjs.org/) (App Router)
 - **Language**: [TypeScript](https://www.typescriptlang.org/)
@@ -53,7 +61,7 @@ LLMの推論能力を活用し、単なるテキスト生成ではなく、**「
 - **PDF/PPTX**: `jspdf`, `pptxgenjs`
 - **Sharing**: `lz-string`
 
-## 🏁 始め方 (Getting Started)
+## 🏁 Getting Started
 
 ### 1. Clone the repository
 ```bash
